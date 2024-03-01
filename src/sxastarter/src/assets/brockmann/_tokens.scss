@@ -1,0 +1,1989 @@
+/*
+** Generated with Brockmann Transformer v0.0.3
+** File: https://www.figma.com/file/y1U7c9K92HWBqUuFR4OTrI
+** Exported by: Jarrett Long
+** Date: Fri, 01 Mar 2024 18:10:20 GMT
+*/
+
+:root {
+  /* Collection: --rp-❖-base */
+  --rp-base-color-Color: rgba(83, 69, 205, 0.5);
+  --rp-base-color-blue-blue050: rgba(229, 239, 255, 1);
+  --rp-base-color-blue-blue100: rgba(186, 214, 255, 1);
+  --rp-base-color-blue-blue200: rgba(123, 175, 253, 1);
+  --rp-base-color-blue-blue300: rgba(50, 129, 248, 1);
+  --rp-base-color-blue-blue400: rgba(14, 103, 237, 1);
+  --rp-base-color-blue-blue500: rgba(11, 93, 217, 1);
+  --rp-base-color-blue-blue600: rgba(12, 83, 189, 1);
+  --rp-base-color-blue-blue700: rgba(17, 74, 159, 1);
+  --rp-base-color-green-green050: rgba(242, 252, 230, 1);
+  --rp-base-color-green-green100: rgba(213, 246, 173, 1);
+  --rp-base-color-green-green200: rgba(182, 225, 136, 1);
+  --rp-base-color-green-green300: rgba(111, 181, 87, 1);
+  --rp-base-color-green-green400: rgba(39, 114, 39, 1);
+  --rp-base-color-green-green500: rgba(18, 76, 28, 1);
+  --rp-base-color-green-green600: rgba(10, 63, 26, 1);
+  --rp-base-color-green-green700: rgba(6, 61, 27, 1);
+  --rp-base-color-neutral-black: rgba(0, 0, 0, 1);
+  --rp-base-color-neutral-gray-gray-900: rgba(20, 20, 20, 1);
+  --rp-base-color-neutral-gray-gray050: rgba(246, 246, 246, 1);
+  --rp-base-color-neutral-gray-gray100: rgba(238, 238, 238, 1);
+  --rp-base-color-neutral-gray-gray200: rgba(226, 226, 226, 1);
+  --rp-base-color-neutral-gray-gray300: rgba(203, 203, 203, 1);
+  --rp-base-color-neutral-gray-gray400: rgba(175, 175, 175, 1);
+  --rp-base-color-neutral-gray-gray500: rgba(117, 117, 117, 1);
+  --rp-base-color-neutral-gray-gray600: rgba(84, 84, 84, 1);
+  --rp-base-color-neutral-gray-gray700: rgba(51, 51, 51, 1);
+  --rp-base-color-neutral-gray-gray800: rgba(31, 31, 31, 1);
+  --rp-base-color-neutral-opacity-gray000: rgba(246, 246, 246, 0);
+  --rp-base-color-neutral-opacity-gray001: rgba(246, 246, 246, 0.01);
+  --rp-base-color-neutral-opacity-gray050: rgba(246, 246, 246, 0.5);
+  --rp-base-color-neutral-opacity-gray100: rgba(238, 238, 238, 0.5);
+  --rp-base-color-neutral-opacity-gray200: rgba(226, 226, 226, 0.5);
+  --rp-base-color-neutral-opacity-gray300: rgba(203, 203, 203, 0.5);
+  --rp-base-color-neutral-opacity-gray400: rgba(175, 175, 175, 0.5);
+  --rp-base-color-neutral-opacity-gray500: rgba(117, 117, 117, 0.5);
+  --rp-base-color-neutral-opacity-gray600: rgba(84, 84, 84, 0.5);
+  --rp-base-color-neutral-opacity-gray700: rgba(51, 51, 51, 0.5);
+  --rp-base-color-neutral-opacity-gray800: rgba(31, 31, 31, 0.5);
+  --rp-base-color-neutral-opacity-gray900: rgba(20, 20, 20, 0.5);
+  --rp-base-color-neutral-white: rgba(255, 255, 255, 1);
+  --rp-base-color-primary-primary050: rgba(243, 247, 254, 1);
+  --rp-base-color-primary-primary100: rgba(205, 209, 222, 1);
+  --rp-base-color-primary-primary200: rgba(170, 173, 189, 1);
+  --rp-base-color-primary-primary300: rgba(137, 139, 157, 1);
+  --rp-base-color-primary-primary400: rgba(106, 108, 126, 1);
+  --rp-base-color-primary-primary500: rgba(78, 79, 95, 1);
+  --rp-base-color-primary-primary600: rgba(52, 52, 63, 1);
+  --rp-base-color-primary-primary700: rgba(52, 52, 63, 1);
+  --rp-base-color-red-red050: rgba(253, 240, 239, 1);
+  --rp-base-color-red-red100: rgba(250, 219, 215, 1);
+  --rp-base-color-red-red200: rgba(244, 175, 167, 1);
+  --rp-base-color-red-red300: rgba(235, 117, 103, 1);
+  --rp-base-color-red-red400: rgba(212, 67, 51, 1);
+  --rp-base-color-red-red500: rgba(174, 55, 42, 1);
+  --rp-base-color-red-red600: rgba(137, 44, 33, 1);
+  --rp-base-color-red-red700: rgba(92, 29, 22, 1);
+  --rp-base-color-secondary-secondary050: rgba(255, 255, 243, 1);
+  --rp-base-color-secondary-secondary100: rgba(216, 223, 206, 1);
+  --rp-base-color-secondary-secondary200: rgba(173, 190, 171, 1);
+  --rp-base-color-secondary-secondary300: rgba(140, 158, 147, 1);
+  --rp-base-color-secondary-secondary400: rgba(110, 127, 122, 1);
+  --rp-base-color-secondary-secondary500: rgba(82, 95, 95, 1);
+  --rp-base-color-secondary-secondary600: rgba(54, 62, 64, 1);
+  --rp-base-color-secondary-secondary700: rgba(27, 31, 32, 1);
+  --rp-base-color-yellow-yellow050: rgba(255, 247, 218, 1);
+  --rp-base-color-yellow-yellow100: rgba(255, 235, 146, 1);
+  --rp-base-color-yellow-yellow200: rgba(249, 219, 74, 1);
+  --rp-base-color-yellow-yellow300: rgba(228, 183, 37, 1);
+  --rp-base-color-yellow-yellow400: rgba(162, 121, 23, 1);
+  --rp-base-color-yellow-yellow500: rgba(129, 87, 4, 1);
+  --rp-base-color-yellow-yellow600: rgba(118, 72, 12, 1);
+  --rp-base-color-yellow-yellow700: rgba(110, 65, 3, 1);
+  --rp-base-scale-000: 0px;
+  --rp-base-scale-001: 1px;
+  --rp-base-scale-002: 2px;
+  --rp-base-scale-003: 3px;
+  --rp-base-scale-004: 4px;
+  --rp-base-scale-005: 5px;
+  --rp-base-scale-006: 6px;
+  --rp-base-scale-008: 8px;
+  --rp-base-scale-010: 10px;
+  --rp-base-scale-012: 12px;
+  --rp-base-scale-016: 16px;
+  --rp-base-scale-020: 20px;
+  --rp-base-scale-024: 24px;
+  --rp-base-scale-032: 32px;
+  --rp-base-scale-040: 40px;
+  --rp-base-scale-048: 48px;
+  --rp-base-scale-056: 56px;
+  --rp-base-scale-060: 60px;
+  --rp-base-scale-064: 64px;
+  --rp-base-scale-076: 76px;
+  --rp-base-scale-096: 96px;
+  --rp-base-scale-120: 120px;
+  --rp-base-scale-260: 260px;
+  --rp-base-scale-290: 290px;
+
+  /* Collection: --rp-❖-semantic */
+  --rp-semantic-color-border-default-brandAccent: var(--rp-base-color-secondary-secondary300);
+  --rp-semantic-color-border-default-brandPrimary: var(--rp-base-color-primary-primary300);
+  --rp-semantic-color-border-default-brandSecondary: var(--rp-base-color-secondary-secondary400);
+  --rp-semantic-color-border-default-primary: var(--rp-base-color-neutral-gray-gray700);
+  --rp-semantic-color-border-default-secondary: var(--rp-base-color-neutral-gray-gray500);
+  --rp-semantic-color-border-default-tertiary: var(--rp-base-color-neutral-gray-gray300);
+  --rp-semantic-color-border-default-utility-info: var(--rp-base-color-blue-blue300);
+  --rp-semantic-color-border-default-utility-negative: var(--rp-base-color-red-red300);
+  --rp-semantic-color-border-default-utility-positive: var(--rp-base-color-green-green300);
+  --rp-semantic-color-border-default-utility-warning: var(--rp-base-color-yellow-yellow300);
+  --rp-semantic-color-border-inverse-brandAccent: var(--rp-base-color-secondary-secondary200);
+  --rp-semantic-color-border-inverse-brandPrimary: var(--rp-base-color-primary-primary400);
+  --rp-semantic-color-border-inverse-brandSecondary: var(--rp-base-color-secondary-secondary300);
+  --rp-semantic-color-border-inverse-primary: var(--rp-base-color-neutral-white);
+  --rp-semantic-color-border-inverse-secondary: var(--rp-base-color-neutral-gray-gray200);
+  --rp-semantic-color-border-inverse-tertiary: var(--rp-base-color-neutral-gray-gray300);
+  --rp-semantic-color-border-inverse-utility-info: var(--rp-base-color-blue-blue300);
+  --rp-semantic-color-border-inverse-utility-negative: var(--rp-base-color-red-red300);
+  --rp-semantic-color-border-inverse-utility-positive: var(--rp-base-color-green-green300);
+  --rp-semantic-color-border-inverse-utility-warning: var(--rp-base-color-yellow-yellow300);
+  --rp-semantic-color-content-default-brandAccent: var(--rp-base-color-secondary-secondary300);
+  --rp-semantic-color-content-default-brandPrimary: var(--rp-base-color-primary-primary300);
+  --rp-semantic-color-content-default-brandSecondary: var(--rp-base-color-secondary-secondary400);
+  --rp-semantic-color-content-default-primary: var(--rp-base-color-neutral-gray-gray-900);
+  --rp-semantic-color-content-default-secondary: var(--rp-base-color-neutral-gray-gray600);
+  --rp-semantic-color-content-default-tertiary: var(--rp-base-color-neutral-gray-gray500);
+  --rp-semantic-color-content-default-utility-info: var(--rp-base-color-blue-blue300);
+  --rp-semantic-color-content-default-utility-negative: var(--rp-base-color-red-red300);
+  --rp-semantic-color-content-default-utility-positive: var(--rp-base-color-green-green300);
+  --rp-semantic-color-content-default-utility-warning: var(--rp-base-color-yellow-yellow300);
+  --rp-semantic-color-content-inverse-brandAccent: var(--rp-base-color-secondary-secondary200);
+  --rp-semantic-color-content-inverse-brandPrimary: var(--rp-base-color-primary-primary400);
+  --rp-semantic-color-content-inverse-brandSecondary: var(--rp-base-color-secondary-secondary300);
+  --rp-semantic-color-content-inverse-primary: var(--rp-base-color-neutral-white);
+  --rp-semantic-color-content-inverse-secondary: var(--rp-base-color-neutral-gray-gray100);
+  --rp-semantic-color-content-inverse-tertiary: var(--rp-base-color-neutral-gray-gray200);
+  --rp-semantic-color-content-inverse-utility-info: var(--rp-base-color-blue-blue300);
+  --rp-semantic-color-content-inverse-utility-negative: var(--rp-base-color-red-red300);
+  --rp-semantic-color-content-inverse-utility-positive: var(--rp-base-color-green-green300);
+  --rp-semantic-color-content-inverse-utility-warning: var(--rp-base-color-yellow-yellow300);
+  --rp-semantic-color-surface-default-brandAccent: var(--rp-base-color-secondary-secondary300);
+  --rp-semantic-color-surface-default-brandPrimary: var(--rp-base-color-primary-primary300);
+  --rp-semantic-color-surface-default-brandSecondary: var(--rp-base-color-secondary-secondary400);
+  --rp-semantic-color-surface-default-primary: var(--rp-base-color-neutral-white);
+  --rp-semantic-color-surface-default-secondary: var(--rp-base-color-neutral-gray-gray050);
+  --rp-semantic-color-surface-default-tertiary: var(--rp-base-color-neutral-gray-gray100);
+  --rp-semantic-color-surface-default-transparent: var(--rp-base-color-neutral-opacity-gray000);
+  --rp-semantic-color-surface-default-utility-info: var(--rp-base-color-blue-blue300);
+  --rp-semantic-color-surface-default-utility-negative: var(--rp-base-color-red-red300);
+  --rp-semantic-color-surface-default-utility-positive: var(--rp-base-color-green-green300);
+  --rp-semantic-color-surface-default-utility-warning: var(--rp-base-color-yellow-yellow300);
+  --rp-semantic-color-surface-inverse-brandAccent: var(--rp-base-color-secondary-secondary200);
+  --rp-semantic-color-surface-inverse-brandPrimary: var(--rp-base-color-primary-primary300);
+  --rp-semantic-color-surface-inverse-brandSecondary: var(--rp-base-color-secondary-secondary300);
+  --rp-semantic-color-surface-inverse-primary: var(--rp-base-color-neutral-gray-gray-900);
+  --rp-semantic-color-surface-inverse-secondary: var(--rp-base-color-neutral-gray-gray700);
+  --rp-semantic-color-surface-inverse-tertiary: var(--rp-base-color-neutral-gray-gray500);
+  --rp-semantic-color-surface-inverse-utility-info: var(--rp-base-color-blue-blue300);
+  --rp-semantic-color-surface-inverse-utility-negative: var(--rp-base-color-red-red300);
+  --rp-semantic-color-surface-inverse-utility-positive: var(--rp-base-color-green-green300);
+  --rp-semantic-color-surface-inverse-utility-warning: var(--rp-base-color-yellow-yellow300);
+  --rp-semantic-color-tint-default-brandAccent: var(--rp-base-color-secondary-secondary100);
+  --rp-semantic-color-tint-default-brandPrimary: var(--rp-base-color-primary-primary050);
+  --rp-semantic-color-tint-default-brandSecondary: var(--rp-base-color-secondary-secondary050);
+  --rp-semantic-color-tint-default-primary: var(--rp-base-color-neutral-gray-gray050);
+  --rp-semantic-color-tint-default-secondary: var(--rp-base-color-neutral-gray-gray100);
+  --rp-semantic-color-tint-default-tertiary: var(--rp-base-color-neutral-gray-gray200);
+  --rp-semantic-color-tint-default-utility-info: var(--rp-base-color-blue-blue050);
+  --rp-semantic-color-tint-default-utility-negative: var(--rp-base-color-red-red050);
+  --rp-semantic-color-tint-default-utility-positive: var(--rp-base-color-green-green050);
+  --rp-semantic-color-tint-default-utility-warning: var(--rp-base-color-yellow-yellow050);
+  --rp-semantic-color-tint-inverse-brandAccent: var(--rp-base-color-secondary-secondary050);
+  --rp-semantic-color-tint-inverse-brandPrimary: var(--rp-base-color-primary-primary100);
+  --rp-semantic-color-tint-inverse-brandSecondary: var(--rp-base-color-secondary-secondary100);
+  --rp-semantic-color-tint-inverse-primary: var(--rp-base-color-neutral-gray-gray500);
+  --rp-semantic-color-tint-inverse-secondary: var(--rp-base-color-neutral-gray-gray300);
+  --rp-semantic-color-tint-inverse-tertiary: var(--rp-base-color-neutral-gray-gray100);
+  --rp-semantic-color-tint-inverse-utility-info: var(--rp-base-color-blue-blue100);
+  --rp-semantic-color-tint-inverse-utility-negative: var(--rp-base-color-red-red100);
+  --rp-semantic-color-tint-inverse-utility-positive: var(--rp-base-color-green-green100);
+  --rp-semantic-color-tint-inverse-utility-warning: var(--rp-base-color-yellow-yellow100);
+  --rp-semantic-measures-radius-full: var(--rp-base-scale-120);
+  --rp-semantic-measures-radius-large: var(--rp-base-scale-008);
+  --rp-semantic-measures-radius-medium: var(--rp-base-scale-004);
+  --rp-semantic-measures-radius-none: var(--rp-base-scale-000);
+  --rp-semantic-measures-radius-small: var(--rp-base-scale-002);
+  --rp-semantic-measures-radius-xlarge: var(--rp-base-scale-012);
+  --rp-semantic-measures-sizing-008: var(--rp-base-scale-008);
+  --rp-semantic-measures-sizing-010: var(--rp-base-scale-010);
+  --rp-semantic-measures-sizing-012: var(--rp-base-scale-012);
+  --rp-semantic-measures-sizing-016: var(--rp-base-scale-016);
+  --rp-semantic-measures-sizing-020: var(--rp-base-scale-020);
+  --rp-semantic-measures-sizing-024: var(--rp-base-scale-024);
+  --rp-semantic-measures-sizing-032: var(--rp-base-scale-032);
+  --rp-semantic-measures-sizing-040: var(--rp-base-scale-040);
+  --rp-semantic-measures-sizing-048: var(--rp-base-scale-048);
+  --rp-semantic-measures-sizing-056: var(--rp-base-scale-056);
+  --rp-semantic-measures-sizing-060: var(--rp-base-scale-060);
+  --rp-semantic-measures-sizing-064: var(--rp-base-scale-064);
+  --rp-semantic-measures-sizing-076: var(--rp-base-scale-076);
+  --rp-semantic-measures-sizing-096: var(--rp-base-scale-096);
+  --rp-semantic-measures-sizing-120: var(--rp-base-scale-120);
+  --rp-semantic-measures-spacing-000: var(--rp-base-scale-000);
+  --rp-semantic-measures-spacing-001: var(--rp-base-scale-001);
+  --rp-semantic-measures-spacing-002: var(--rp-base-scale-002);
+  --rp-semantic-measures-spacing-004: var(--rp-base-scale-004);
+  --rp-semantic-measures-spacing-008: var(--rp-base-scale-008);
+  --rp-semantic-measures-spacing-010: var(--rp-base-scale-010);
+  --rp-semantic-measures-spacing-012: var(--rp-base-scale-012);
+  --rp-semantic-measures-spacing-016: var(--rp-base-scale-016);
+  --rp-semantic-measures-spacing-020: var(--rp-base-scale-020);
+  --rp-semantic-measures-spacing-024: var(--rp-base-scale-024);
+  --rp-semantic-measures-spacing-032: var(--rp-base-scale-032);
+  --rp-semantic-measures-spacing-040: var(--rp-base-scale-040);
+  --rp-semantic-measures-spacing-048: var(--rp-base-scale-048);
+  --rp-semantic-measures-spacing-056: var(--rp-base-scale-056);
+  --rp-semantic-measures-spacing-060: var(--rp-base-scale-060);
+  --rp-semantic-measures-spacing-064: var(--rp-base-scale-064);
+  --rp-semantic-measures-spacing-076: var(--rp-base-scale-076);
+  --rp-semantic-measures-spacing-096: var(--rp-base-scale-096);
+  --rp-semantic-measures-spacing-120: var(--rp-base-scale-120);
+  --rp-semantic-measures-stroke-large: var(--rp-base-scale-003);
+  --rp-semantic-measures-stroke-medium: var(--rp-base-scale-002);
+  --rp-semantic-measures-stroke-small: var(--rp-base-scale-001);
+
+  /* Collection: --rp-accordion */
+  --rp-accordion-color-default-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-accordion-color-default-border-bottom-color: var(
+    --rp-semantic-color-border-inverse-secondary
+  );
+  --rp-accordion-color-default-color: var(--rp-semantic-color-content-default-brandPrimary);
+  --rp-accordion-color-hover-background-color: var(--rp-semantic-color-surface-default-secondary);
+  --rp-accordion-color-hover-border-bottom-color: var(--rp-base-color-neutral-gray-gray200);
+  --rp-accordion-color-hover-color: var(--rp-semantic-color-content-default-brandPrimary);
+  --rp-accordion-color-selected-border-color: var(--rp-semantic-color-border-default-primary);
+  --rp-accordion-color-selected-item-background-color: var(
+    --rp-semantic-color-surface-default-primary
+  );
+  --rp-accordion-color-selected-item-border-bottom-color: var(
+    --rp-semantic-color-border-inverse-secondary
+  );
+  --rp-accordion-color-selected-item-color: var(--rp-semantic-color-content-default-brandPrimary);
+  --rp-accordion-color-selected-open-background-color: var(
+    --rp-semantic-color-surface-default-secondary
+  );
+  --rp-accordion-color-selected-open-color: var(--rp-semantic-color-content-default-secondary);
+  --rp-accordion-radius-medium-bottom-bottom-left: var(--rp-semantic-measures-radius-large);
+  --rp-accordion-radius-medium-bottom-bottom-right: var(--rp-semantic-measures-radius-large);
+  --rp-accordion-radius-medium-bottom-top-left: var(--rp-semantic-measures-radius-none);
+  --rp-accordion-radius-medium-bottom-top-right: var(--rp-semantic-measures-radius-none);
+  --rp-accordion-radius-medium-horizontal-gap: 0px;
+  --rp-accordion-radius-medium-horizontal-padding: 0px;
+  --rp-accordion-radius-medium-middle-bottom-left: var(--rp-semantic-measures-radius-none);
+  --rp-accordion-radius-medium-middle-bottom-right: var(--rp-semantic-measures-radius-none);
+  --rp-accordion-radius-medium-middle-top-left: var(--rp-semantic-measures-radius-none);
+  --rp-accordion-radius-medium-middle-top-right: var(--rp-semantic-measures-radius-none);
+  --rp-accordion-radius-medium-top-bottom-left: var(--rp-semantic-measures-radius-none);
+  --rp-accordion-radius-medium-top-bottom-right: var(--rp-semantic-measures-radius-none);
+  --rp-accordion-radius-medium-top-top-left: var(--rp-semantic-measures-radius-large);
+  --rp-accordion-radius-medium-top-top-right: var(--rp-semantic-measures-radius-large);
+  --rp-accordion-radius-medium-vertical-padding: 0px;
+  --rp-accordion-radius-small-bottom-bottom-left: var(--rp-semantic-measures-radius-medium);
+  --rp-accordion-radius-small-bottom-bottom-right: var(--rp-semantic-measures-radius-medium);
+  --rp-accordion-radius-small-bottom-top-left: var(--rp-semantic-measures-radius-none);
+  --rp-accordion-radius-small-bottom-top-right: var(--rp-semantic-measures-radius-none);
+  --rp-accordion-radius-small-horizontal-gap: 0px;
+  --rp-accordion-radius-small-horizontal-padding: 0px;
+  --rp-accordion-radius-small-middle-bottom-left: var(--rp-semantic-measures-radius-none);
+  --rp-accordion-radius-small-middle-bottom-right: var(--rp-semantic-measures-radius-none);
+  --rp-accordion-radius-small-middle-top-left: var(--rp-semantic-measures-radius-none);
+  --rp-accordion-radius-small-middle-top-right: var(--rp-semantic-measures-radius-none);
+  --rp-accordion-radius-small-top-bottom-left: var(--rp-semantic-measures-radius-none);
+  --rp-accordion-radius-small-top-bottom-right: var(--rp-semantic-measures-radius-none);
+  --rp-accordion-radius-small-top-top-left: var(--rp-semantic-measures-radius-medium);
+  --rp-accordion-radius-small-top-top-right: var(--rp-semantic-measures-radius-medium);
+  --rp-accordion-radius-small-vertical-padding: 0px;
+  --rp-accordion-spacing-medium-bottom-horizontal-gap: var(--rp-semantic-measures-spacing-012);
+  --rp-accordion-spacing-medium-bottom-horizontal-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-accordion-spacing-medium-bottom-vertical-padding: var(--rp-semantic-measures-spacing-012);
+  --rp-accordion-spacing-medium-middle-horizontal-gap: var(--rp-semantic-measures-spacing-012);
+  --rp-accordion-spacing-medium-middle-horizontal-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-accordion-spacing-medium-middle-vertical-padding: var(--rp-semantic-measures-spacing-012);
+  --rp-accordion-spacing-medium-top-horizontal-gap: var(--rp-semantic-measures-spacing-012);
+  --rp-accordion-spacing-medium-top-horizontal-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-accordion-spacing-medium-top-vertical-padding: var(--rp-semantic-measures-spacing-012);
+  --rp-accordion-spacing-small-bottom-horizontal-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-accordion-spacing-small-bottom-horizontal-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-accordion-spacing-small-bottom-vertical-padding: var(--rp-semantic-measures-spacing-008);
+  --rp-accordion-spacing-small-middle-horizontal-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-accordion-spacing-small-middle-horizontal-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-accordion-spacing-small-middle-vertical-padding: var(--rp-semantic-measures-spacing-008);
+  --rp-accordion-spacing-small-top-horizontal-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-accordion-spacing-small-top-horizontal-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-accordion-spacing-small-top-vertical-padding: var(--rp-semantic-measures-spacing-008);
+  --rp-accordion-stroke-selected-stroke-weight: var(--rp-semantic-measures-stroke-small);
+
+  /* Collection: --rp-alert dialog */
+  --rp-alert-dialog-color-color: var(--rp-semantic-color-content-default-secondary);
+  --rp-alert-dialog-color-label-color: var(--rp-semantic-color-content-default-primary);
+  --rp-alert-dialog-radius-border-radius: var(--rp-semantic-measures-radius-large);
+  --rp-alert-dialog-spacing-button-horizontal-gap: var(--rp-semantic-measures-spacing-012);
+  --rp-alert-dialog-spacing-button-vertical-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-alert-dialog-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-024);
+  --rp-alert-dialog-spacing-vertical-gap: var(--rp-semantic-measures-spacing-024);
+  --rp-alert-dialog-spacing-vertical-padding: var(--rp-semantic-measures-spacing-024);
+
+  /* Collection: --rp-app-bar */
+  --rp-app-bar-color-inverse-background-color: var(--rp-base-color-neutral-opacity-gray000);
+  --rp-app-bar-color-standard-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-app-bar-spacing-large-horizontal-gap: var(--rp-semantic-measures-spacing-004);
+  --rp-app-bar-spacing-large-horizontal-padding: var(--rp-semantic-measures-spacing-004);
+  --rp-app-bar-spacing-large-vertical-padding: var(--rp-semantic-measures-spacing-004);
+  --rp-app-bar-spacing-medium-horizontal-gap: var(--rp-semantic-measures-spacing-004);
+  --rp-app-bar-spacing-medium-horizontal-padding: var(--rp-semantic-measures-spacing-004);
+  --rp-app-bar-spacing-medium-vertical-padding: var(--rp-semantic-measures-spacing-004);
+
+  /* Collection: --rp-app-bar-item */
+  --rp-app-bar-item-color-inverse-item-default-background-color: var(
+    --rp-base-color-neutral-opacity-gray000
+  );
+  --rp-app-bar-item-color-inverse-item-default-color: var(
+    --rp-semantic-color-content-inverse-primary
+  );
+  --rp-app-bar-item-color-inverse-item-hover-background-color: var(
+    --rp-semantic-color-surface-inverse-brandPrimary
+  );
+  --rp-app-bar-item-color-inverse-item-hover-color: var(
+    --rp-semantic-color-content-inverse-primary
+  );
+  --rp-app-bar-item-color-inverse-item-selected-background-color: var(
+    --rp-base-color-neutral-opacity-gray000
+  );
+  --rp-app-bar-item-color-inverse-item-selected-border-color: var(
+    --rp-semantic-color-content-inverse-primary
+  );
+  --rp-app-bar-item-color-inverse-item-selected-color: var(
+    --rp-semantic-color-content-inverse-primary
+  );
+  --rp-app-bar-item-color-standard-default-background-color: var(
+    --rp-semantic-color-surface-default-primary
+  );
+  --rp-app-bar-item-color-standard-default-color: var(
+    --rp-semantic-color-content-default-brandPrimary
+  );
+  --rp-app-bar-item-color-standard-hover-background-color: var(
+    --rp-semantic-color-tint-default-brandPrimary
+  );
+  --rp-app-bar-item-color-standard-hover-color: var(
+    --rp-semantic-color-content-default-brandPrimary
+  );
+  --rp-app-bar-item-color-standard-selected-background-color: var(
+    --rp-semantic-color-surface-default-primary
+  );
+  --rp-app-bar-item-color-standard-selected-border-color: var(
+    --rp-semantic-color-border-default-brandPrimary
+  );
+  --rp-app-bar-item-color-standard-selected-color: var(
+    --rp-semantic-color-content-default-brandPrimary
+  );
+  --rp-app-bar-item-sizing-icon-height: var(--rp-semantic-measures-sizing-016);
+  --rp-app-bar-item-sizing-icon-width: var(--rp-semantic-measures-sizing-016);
+  --rp-app-bar-item-spacing-large-horizontal-gap: var(--rp-semantic-measures-spacing-004);
+  --rp-app-bar-item-spacing-large-horizontal-padding: var(--rp-semantic-measures-spacing-012);
+  --rp-app-bar-item-spacing-large-vertical-padding: var(--rp-semantic-measures-spacing-012);
+  --rp-app-bar-item-spacing-medium-horizontal-gap: var(--rp-semantic-measures-spacing-004);
+  --rp-app-bar-item-spacing-medium-horizontal-padding: var(--rp-semantic-measures-spacing-012);
+  --rp-app-bar-item-spacing-medium-vertical-padding: var(--rp-semantic-measures-spacing-008);
+
+  /* Collection: --rp-app-bar-menu */
+  --rp-app-bar-menu-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-app-bar-menu-radius-border-radius: var(--rp-semantic-measures-radius-medium);
+  --rp-app-bar-menu-sizing-padding: var(--rp-semantic-measures-spacing-004);
+
+  /* Collection: --rp-app-bar-menu-item */
+  --rp-app-bar-menu-item-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-app-bar-menu-item-color-separator-border-color: var(
+    --rp-semantic-color-border-default-tertiary
+  );
+  --rp-app-bar-menu-item-color-standard-default-border-color: var(
+    --rp-semantic-color-border-default-tertiary
+  );
+  --rp-app-bar-menu-item-color-standard-default-color: var(
+    --rp-semantic-color-content-default-brandPrimary
+  );
+  --rp-app-bar-menu-item-color-standard-default-title-color: var(
+    --rp-semantic-color-content-default-primary
+  );
+  --rp-app-bar-menu-item-color-standard-disabled-background-color: var(
+    --rp-semantic-color-surface-default-primary
+  );
+  --rp-app-bar-menu-item-color-standard-disabled-color: var(--rp-base-color-neutral-gray-gray400);
+  --rp-app-bar-menu-item-color-standard-hover-background-color: var(
+    --rp-semantic-color-surface-default-brandPrimary
+  );
+  --rp-app-bar-menu-item-color-standard-hover-color: var(
+    --rp-semantic-color-content-inverse-primary
+  );
+  --rp-app-bar-menu-item-color-standard-hover-selected-background-color: var(
+    --rp-semantic-color-tint-default-brandPrimary
+  );
+  --rp-app-bar-menu-item-color-standard-hover-selected-color: var(
+    --rp-semantic-color-content-default-brandPrimary
+  );
+  --rp-app-bar-menu-item-color-standard-selected-background-color: var(
+    --rp-semantic-color-surface-default-secondary
+  );
+  --rp-app-bar-menu-item-color-standard-selected-color: var(
+    --rp-semantic-color-content-default-brandPrimary
+  );
+  --rp-app-bar-menu-item-radius-separator-border-radius: var(--rp-semantic-measures-radius-none);
+  --rp-app-bar-menu-item-radius-standard-border-radius: var(--rp-semantic-measures-radius-medium);
+  --rp-app-bar-menu-item-spacing-separator-horizontal-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-app-bar-menu-item-spacing-separator-horizontal-padding: var(
+    --rp-semantic-measures-spacing-000
+  );
+  --rp-app-bar-menu-item-spacing-separator-label-horizontal-padding: var(
+    --rp-semantic-measures-spacing-000
+  );
+  --rp-app-bar-menu-item-spacing-separator-label-left-padding: var(
+    --rp-semantic-measures-spacing-000
+  );
+  --rp-app-bar-menu-item-spacing-separator-vertical-padding: var(
+    --rp-semantic-measures-spacing-004
+  );
+  --rp-app-bar-menu-item-spacing-standard-horizontal-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-app-bar-menu-item-spacing-standard-horizontal-padding: var(
+    --rp-semantic-measures-spacing-008
+  );
+  --rp-app-bar-menu-item-spacing-standard-label-horizontal-padding: var(
+    --rp-semantic-measures-spacing-008
+  );
+  --rp-app-bar-menu-item-spacing-standard-label-left-padding: var(
+    --rp-semantic-measures-spacing-032
+  );
+  --rp-app-bar-menu-item-spacing-standard-vertical-padding: var(--rp-semantic-measures-spacing-004);
+
+  /* Collection: --rp-avatar */
+  --rp-avatar-color-inverse-primary-background-color: var(
+    --rp-semantic-color-surface-default-primary
+  );
+  --rp-avatar-color-inverse-primary-content-color: var(
+    --rp-semantic-color-content-default-brandPrimary
+  );
+  --rp-avatar-color-inverse-secondary-background-color: var(
+    --rp-base-color-neutral-opacity-gray000
+  );
+  --rp-avatar-color-inverse-secondary-border-color: var(--rp-semantic-color-border-inverse-primary);
+  --rp-avatar-color-inverse-secondary-content-color: var(
+    --rp-semantic-color-content-inverse-primary
+  );
+  --rp-avatar-color-standard-primary-background-color: var(
+    --rp-semantic-color-surface-default-brandPrimary
+  );
+  --rp-avatar-color-standard-primary-content-color: var(
+    --rp-semantic-color-content-inverse-primary
+  );
+  --rp-avatar-color-standard-secondary-background-color: var(
+    --rp-base-color-neutral-opacity-gray000
+  );
+  --rp-avatar-color-standard-secondary-border-color: var(
+    --rp-semantic-color-border-default-brandPrimary
+  );
+  --rp-avatar-color-standard-secondary-content-color: var(
+    --rp-semantic-color-content-inverse-brandPrimary
+  );
+  --rp-avatar-sizing-large-height: var(--rp-semantic-measures-sizing-048);
+  --rp-avatar-sizing-large-width: var(--rp-semantic-measures-sizing-048);
+  --rp-avatar-sizing-medium-height: var(--rp-semantic-measures-sizing-032);
+  --rp-avatar-sizing-medium-width: var(--rp-semantic-measures-sizing-032);
+  --rp-avatar-sizing-small-height: var(--rp-semantic-measures-sizing-024);
+  --rp-avatar-sizing-small-width: var(--rp-semantic-measures-sizing-024);
+  --rp-avatar-sizing-xlarge-height: var(--rp-semantic-measures-sizing-060);
+  --rp-avatar-sizing-xlarge-width: var(--rp-semantic-measures-sizing-060);
+
+  /* Collection: --rp-breadcrumb */
+  --rp-breadcrumb-color-background-color: var(--rp-semantic-color-surface-default-secondary);
+  --rp-breadcrumb-color-icon-color: var(--rp-semantic-color-content-default-primary);
+  --rp-breadcrumb-color-interactive-color: var(--rp-semantic-color-content-default-brandPrimary);
+  --rp-breadcrumb-color-text-color: var(--rp-semantic-color-content-default-primary);
+  --rp-breadcrumb-sizing-icon-large-height: var(--rp-semantic-measures-sizing-024);
+  --rp-breadcrumb-sizing-icon-large-width: var(--rp-semantic-measures-sizing-024);
+  --rp-breadcrumb-sizing-icon-small-height: var(--rp-semantic-measures-sizing-016);
+  --rp-breadcrumb-sizing-icon-small-width: var(--rp-semantic-measures-sizing-016);
+  --rp-breadcrumb-sizing-menu-max-width: var(--rp-semantic-measures-sizing-120);
+  --rp-breadcrumb-spacing-horizontal-gap: var(--rp-semantic-measures-sizing-008);
+  --rp-breadcrumb-spacing-menu-horizontal-gap: var(--rp-semantic-measures-spacing-016);
+  --rp-breadcrumb-spacing-menu-horizontal-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-breadcrumb-spacing-menu-vertical-padding: var(--rp-semantic-measures-spacing-016);
+
+  /* Collection: --rp-button */
+  --rp-button-color-primary-inverse-active-background-color: var(
+    --rp-semantic-color-tint-inverse-brandPrimary
+  );
+  --rp-button-color-primary-inverse-active-color: var(
+    --rp-semantic-color-content-inverse-brandPrimary
+  );
+  --rp-button-color-primary-inverse-default-background-color: var(
+    --rp-semantic-color-surface-default-primary
+  );
+  --rp-button-color-primary-inverse-default-color: var(
+    --rp-semantic-color-content-inverse-brandPrimary
+  );
+  --rp-button-color-primary-inverse-disabled-background-color: var(
+    --rp-semantic-color-tint-inverse-primary
+  );
+  --rp-button-color-primary-inverse-disabled-color: var(
+    --rp-semantic-color-content-inverse-primary
+  );
+  --rp-button-color-primary-inverse-focus-background-color: var(
+    --rp-semantic-color-surface-default-primary
+  );
+  --rp-button-color-primary-inverse-focus-border-color: var(
+    --rp-semantic-color-border-inverse-utility-info
+  );
+  --rp-button-color-primary-inverse-focus-color: var(
+    --rp-semantic-color-content-inverse-brandPrimary
+  );
+  --rp-button-color-primary-inverse-hover-background-color: var(
+    --rp-semantic-color-tint-inverse-brandPrimary
+  );
+  --rp-button-color-primary-inverse-hover-border-color: var(
+    --rp-semantic-color-border-inverse-primary
+  );
+  --rp-button-color-primary-inverse-hover-color: var(
+    --rp-semantic-color-content-inverse-brandPrimary
+  );
+  --rp-button-color-primary-inverse-loading-background-color: var(
+    --rp-base-color-neutral-opacity-gray000
+  );
+  --rp-button-color-primary-inverse-loading-border-color: var(
+    --rp-semantic-color-content-inverse-primary
+  );
+  --rp-button-color-primary-standard-active-background-color: var(
+    --rp-semantic-color-tint-default-brandPrimary
+  );
+  --rp-button-color-primary-standard-active-color: var(
+    --rp-semantic-color-content-default-brandPrimary
+  );
+  --rp-button-color-primary-standard-default-background-color: var(
+    --rp-semantic-color-surface-default-brandPrimary
+  );
+  --rp-button-color-primary-standard-default-color: var(
+    --rp-semantic-color-content-inverse-primary
+  );
+  --rp-button-color-primary-standard-disabled-background-color: var(
+    --rp-semantic-color-tint-default-tertiary
+  );
+  --rp-button-color-primary-standard-disabled-color: var(
+    --rp-semantic-color-content-default-tertiary
+  );
+  --rp-button-color-primary-standard-focus-background-color: var(
+    --rp-semantic-color-surface-default-brandPrimary
+  );
+  --rp-button-color-primary-standard-focus-border-color: var(
+    --rp-semantic-color-border-default-utility-info
+  );
+  --rp-button-color-primary-standard-focus-color: var(--rp-semantic-color-content-inverse-primary);
+  --rp-button-color-primary-standard-hover-background-color: var(
+    --rp-semantic-color-tint-default-brandPrimary
+  );
+  --rp-button-color-primary-standard-hover-border-color: var(
+    --rp-semantic-color-border-default-brandPrimary
+  );
+  --rp-button-color-primary-standard-hover-color: var(
+    --rp-semantic-color-content-default-brandPrimary
+  );
+  --rp-button-color-primary-standard-loading-background-color: var(
+    --rp-base-color-neutral-opacity-gray000
+  );
+  --rp-button-color-primary-standard-loading-border-color: var(
+    --rp-semantic-color-border-default-brandPrimary
+  );
+  --rp-button-color-secondary-inverse-active-background-color: var(
+    --rp-semantic-color-tint-inverse-brandPrimary
+  );
+  --rp-button-color-secondary-inverse-active-color: var(
+    --rp-semantic-color-content-inverse-brandPrimary
+  );
+  --rp-button-color-secondary-inverse-default-background-color: var(
+    --rp-base-color-neutral-opacity-gray000
+  );
+  --rp-button-color-secondary-inverse-default-border-color: var(
+    --rp-semantic-color-border-inverse-primary
+  );
+  --rp-button-color-secondary-inverse-default-color: var(
+    --rp-semantic-color-content-inverse-primary
+  );
+  --rp-button-color-secondary-inverse-disabled-background-color: var(
+    --rp-semantic-color-surface-inverse-tertiary
+  );
+  --rp-button-color-secondary-inverse-disabled-color: var(
+    --rp-semantic-color-content-inverse-tertiary
+  );
+  --rp-button-color-secondary-inverse-focus-background-color: var(
+    --rp-base-color-neutral-opacity-gray001
+  );
+  --rp-button-color-secondary-inverse-focus-border-color: var(
+    --rp-semantic-color-border-inverse-utility-info
+  );
+  --rp-button-color-secondary-inverse-focus-color: var(--rp-semantic-color-content-inverse-primary);
+  --rp-button-color-secondary-inverse-hover-background-color: var(
+    --rp-semantic-color-tint-inverse-brandPrimary
+  );
+  --rp-button-color-secondary-inverse-hover-border-color: var(
+    --rp-semantic-color-content-inverse-primary
+  );
+  --rp-button-color-secondary-inverse-hover-color: var(
+    --rp-semantic-color-content-inverse-brandPrimary
+  );
+  --rp-button-color-secondary-inverse-loading-background-color: var(
+    --rp-base-color-neutral-opacity-gray000
+  );
+  --rp-button-color-secondary-inverse-loading-border-color: var(
+    --rp-semantic-color-border-inverse-primary
+  );
+  --rp-button-color-secondary-standard-active-background-color: var(
+    --rp-semantic-color-tint-default-brandPrimary
+  );
+  --rp-button-color-secondary-standard-active-color: var(
+    --rp-semantic-color-content-default-brandPrimary
+  );
+  --rp-button-color-secondary-standard-default-background-color: var(
+    --rp-base-color-neutral-opacity-gray000
+  );
+  --rp-button-color-secondary-standard-default-border-color: var(
+    --rp-semantic-color-border-default-brandPrimary
+  );
+  --rp-button-color-secondary-standard-default-color: var(
+    --rp-semantic-color-content-default-brandPrimary
+  );
+  --rp-button-color-secondary-standard-disabled-background-color: var(
+    --rp-semantic-color-tint-default-tertiary
+  );
+  --rp-button-color-secondary-standard-disabled-color: var(
+    --rp-semantic-color-content-default-tertiary
+  );
+  --rp-button-color-secondary-standard-focus-background-color: var(
+    --rp-base-color-neutral-opacity-gray001
+  );
+  --rp-button-color-secondary-standard-focus-border-color: var(--rp-input-color-focus-border-color);
+  --rp-button-color-secondary-standard-focus-color: var(
+    --rp-semantic-color-content-default-brandPrimary
+  );
+  --rp-button-color-secondary-standard-hover-background-color: var(
+    --rp-semantic-color-tint-inverse-brandPrimary
+  );
+  --rp-button-color-secondary-standard-hover-border-color: var(
+    --rp-semantic-color-border-default-brandPrimary
+  );
+  --rp-button-color-secondary-standard-hover-color: var(
+    --rp-semantic-color-content-default-brandPrimary
+  );
+  --rp-button-color-secondary-standard-loading-background-color: var(
+    --rp-base-color-neutral-opacity-gray000
+  );
+  --rp-button-color-secondary-standard-loading-border-color: var(
+    --rp-semantic-color-border-default-brandPrimary
+  );
+  --rp-button-radius-large-border-radius: var(--rp-base-scale-024);
+  --rp-button-radius-medium-border-radius: var(--rp-base-scale-020);
+  --rp-button-radius-small-border-radius: var(--rp-base-scale-016);
+  --rp-button-spacing-large-horizontal-padding: var(--rp-semantic-measures-spacing-024);
+  --rp-button-spacing-large-label-horizontal-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-button-spacing-large-vertical-padding: var(--rp-semantic-measures-spacing-010);
+  --rp-button-spacing-medium-horizontal-padding: var(--rp-semantic-measures-spacing-020);
+  --rp-button-spacing-medium-label-horizontal-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-button-spacing-medium-vertical-padding: var(--rp-semantic-measures-spacing-010);
+  --rp-button-spacing-small-horizontal-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-button-spacing-small-label-horizontal-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-button-spacing-small-vertical-padding: var(--rp-semantic-measures-spacing-008);
+
+  /* Collection: --rp-checkbox */
+  --rp-checkbox-color-inverse-background-color: var(--rp-base-color-neutral-opacity-gray000);
+  --rp-checkbox-color-inverse-border-color: var(--rp-semantic-color-border-inverse-primary);
+  --rp-checkbox-color-inverse-focus-border-color: var(
+    --rp-semantic-color-border-default-utility-info
+  );
+  --rp-checkbox-color-inverse-hover-border-color: var(
+    --rp-semantic-color-border-inverse-brandPrimary
+  );
+  --rp-checkbox-color-inverse-indicator: var(--rp-semantic-color-content-inverse-primary);
+  --rp-checkbox-color-standard-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-checkbox-color-standard-border-color: var(--rp-semantic-color-border-default-tertiary);
+  --rp-checkbox-color-standard-focus-border-color: var(
+    --rp-semantic-color-border-default-utility-info
+  );
+  --rp-checkbox-color-standard-hover-border-color: var(
+    --rp-semantic-color-border-default-brandPrimary
+  );
+  --rp-checkbox-color-standard-indicator: var(--rp-semantic-color-content-default-brandPrimary);
+  --rp-checkbox-radius-border-radius: var(--rp-semantic-measures-radius-medium);
+  --rp-checkbox-sizing-indicator-height: var(--rp-semantic-measures-sizing-016);
+  --rp-checkbox-sizing-indicator-width: var(--rp-semantic-measures-sizing-016);
+  --rp-checkbox-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-004);
+  --rp-checkbox-spacing-vertical-padding: var(--rp-semantic-measures-spacing-004);
+
+  /* Collection: --rp-checkbox-group */
+  --rp-checkbox-group-color-inverse-body-color: var(--rp-semantic-color-content-inverse-secondary);
+  --rp-checkbox-group-color-inverse-label-color: var(--rp-semantic-color-content-inverse-primary);
+  --rp-checkbox-group-color-standard-body-color: var(--rp-semantic-color-content-default-tertiary);
+  --rp-checkbox-group-color-standard-label-color: var(--rp-semantic-color-content-default-primary);
+  --rp-checkbox-group-spacing-horizontal-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-checkbox-group-spacing-text-vertical-gap: var(--rp-semantic-measures-spacing-012);
+
+  /* Collection: --rp-collapsible */
+  --rp-collapsible-label-color: var(--rp-semantic-color-content-default-secondary);
+  --rp-collapsible-spacing-title-horizontal-gap: var(--rp-semantic-measures-spacing-012);
+  --rp-collapsible-spacing-vertical-gap: var(--rp-semantic-measures-spacing-012);
+
+  /* Collection: --rp-collapsible-item */
+  --rp-collapsible-item-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-collapsible-item-color-label-color: var(--rp-semantic-color-content-default-brandPrimary);
+  --rp-collapsible-item-radius-border-radius: var(--rp-semantic-measures-radius-medium);
+  --rp-collapsible-item-spacing-horizontal-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-collapsible-item-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-008);
+  --rp-collapsible-item-spacing-vertical-padding: var(--rp-semantic-measures-spacing-008);
+
+  /* Collection: --rp-content-card-vertical */
+  --rp-content-card-vertical-color-background-color: var(
+    --rp-semantic-color-surface-default-primary
+  );
+  --rp-content-card-vertical-color-border-color: var(--rp-semantic-color-border-default-tertiary);
+  --rp-content-card-vertical-radius-border-radius: var(--rp-semantic-measures-radius-medium);
+  --rp-content-card-vertical-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-032);
+  --rp-content-card-vertical-spacing-vertical-gap: var(--rp-semantic-measures-spacing-016);
+  --rp-content-card-vertical-spacing-vertical-padding: var(--rp-semantic-measures-spacing-032);
+
+  /* Collection: --rp-dialog */
+  --rp-dialog-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-dialog-color-color: var(--rp-semantic-color-content-default-secondary);
+  --rp-dialog-color-icon-color: var(--rp-semantic-color-content-default-primary);
+  --rp-dialog-color-label-color: var(--rp-semantic-color-content-default-primary);
+  --rp-dialog-spacing-copy-vertical-gap: var(--rp-semantic-measures-spacing-016);
+  --rp-dialog-spacing-form-vertical-gap: var(--rp-semantic-measures-spacing-016);
+  --rp-dialog-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-024);
+  --rp-dialog-spacing-title-vertical-gap: var(--rp-semantic-measures-spacing-024);
+  --rp-dialog-spacing-vertical-gap: var(--rp-semantic-measures-spacing-024);
+  --rp-dialog-spacing-vertical-padding: var(--rp-semantic-measures-spacing-024);
+
+  /* Collection: --rp-dropdown-menu */
+  --rp-dropdown-menu-border-radius: var(--rp-base-scale-006);
+  --rp-dropdown-menu-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-dropdown-menu-sizing-arrow-height: var(--rp-semantic-measures-spacing-010);
+  --rp-dropdown-menu-sizing-arrow-width: var(--rp-semantic-measures-spacing-016);
+  --rp-dropdown-menu-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-004);
+  --rp-dropdown-menu-spacing-vertical-padding: var(--rp-semantic-measures-spacing-008);
+
+  /* Collection: --rp-dropdown-menu-item */
+  --rp-dropdown-menu-item-color-standard-color: var(
+    --rp-semantic-color-content-default-brandPrimary
+  );
+  --rp-dropdown-menu-item-color-standard-default-background-color: var(
+    --rp-semantic-color-surface-default-primary
+  );
+  --rp-dropdown-menu-item-color-standard-disabled-color: var(--rp-base-color-neutral-gray-gray400);
+  --rp-dropdown-menu-item-color-standard-hover-background-color: var(
+    --rp-semantic-color-surface-inverse-brandPrimary
+  );
+  --rp-dropdown-menu-item-color-standard-hover-color: var(
+    --rp-semantic-color-content-inverse-primary
+  );
+  --rp-dropdown-menu-item-color-standard-hover-selected-background-color: var(
+    --rp-semantic-color-tint-default-brandPrimary
+  );
+  --rp-dropdown-menu-item-color-standard-section-title-color: var(
+    --rp-semantic-color-content-default-primary
+  );
+  --rp-dropdown-menu-item-color-standard-selected-background-color: var(
+    --rp-semantic-color-surface-default-secondary
+  );
+  --rp-dropdown-menu-item-color-standard-selected-border-color: var(
+    --rp-semantic-color-border-default-brandPrimary
+  );
+  --rp-dropdown-menu-item-radius-default: var(--rp-semantic-measures-radius-none);
+  --rp-dropdown-menu-item-radius-selected: var(--rp-semantic-measures-radius-medium);
+  --rp-dropdown-menu-item-sizing-icon-height: var(--rp-semantic-measures-sizing-016);
+  --rp-dropdown-menu-item-sizing-icon-width: var(--rp-semantic-measures-sizing-016);
+  --rp-dropdown-menu-item-spacing-horizontal-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-dropdown-menu-item-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-008);
+  --rp-dropdown-menu-item-spacing-section-title-left-padding: var(
+    --rp-semantic-measures-spacing-032
+  );
+  --rp-dropdown-menu-item-spacing-vertical-padding: var(--rp-semantic-measures-spacing-004);
+
+  /* Collection: --rp-footer */
+  --rp-footer-color-inverse-backgroud-color: var(--rp-semantic-color-surface-inverse-primary);
+  --rp-footer-color-inverse-divider: var(--rp-semantic-color-border-inverse-secondary);
+  --rp-footer-color-inverse-text-color: var(--rp-semantic-color-content-inverse-primary);
+  --rp-footer-color-standard-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-footer-color-standard-divider: var(--rp-semantic-color-border-default-secondary);
+  --rp-footer-color-standard-text-color: var(--rp-semantic-color-content-default-primary);
+  --rp-footer-sizing-large-logo-height: var(--rp-semantic-measures-sizing-040);
+  --rp-footer-sizing-medium-logo-height: var(--rp-semantic-measures-sizing-032);
+  --rp-footer-sizing-small-logo-height: var(--rp-semantic-measures-sizing-032);
+  --rp-footer-spacing-large-horizontal-padding: var(--rp-semantic-measures-sizing-064);
+  --rp-footer-spacing-large-info-block-vertical-gap: var(--rp-semantic-measures-spacing-012);
+  --rp-footer-spacing-large-info-column-vertical-padding: var(--rp-semantic-measures-spacing-060);
+  --rp-footer-spacing-large-legal-horizontal-gap: var(--rp-semantic-measures-spacing-040);
+  --rp-footer-spacing-large-link-column-right-padding: var(--rp-semantic-measures-spacing-064);
+  --rp-footer-spacing-large-link-column-vertical-padding: var(--rp-semantic-measures-spacing-032);
+  --rp-footer-spacing-large-vertical-gap: var(--rp-semantic-measures-spacing-060);
+  --rp-footer-spacing-large-vertical-padding: var(--rp-semantic-measures-spacing-096);
+  --rp-footer-spacing-medium-horizontal-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-footer-spacing-medium-info-block-vertical-gap: var(--rp-semantic-measures-spacing-012);
+  --rp-footer-spacing-medium-info-column-vertical-padding: var(--rp-semantic-measures-spacing-040);
+  --rp-footer-spacing-medium-legal-horizontal-gap: var(--rp-semantic-measures-spacing-040);
+  --rp-footer-spacing-medium-link-column-right-padding: var(--rp-semantic-measures-spacing-048);
+  --rp-footer-spacing-medium-link-column-vertical-padding: var(--rp-semantic-measures-spacing-032);
+  --rp-footer-spacing-medium-vertical-gap: var(--rp-semantic-measures-spacing-040);
+  --rp-footer-spacing-medium-vertical-padding: var(--rp-semantic-measures-spacing-024);
+  --rp-footer-spacing-small-horizontal-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-footer-spacing-small-info-column-vertical-padding: var(--rp-semantic-measures-spacing-032);
+  --rp-footer-spacing-small-legal-vertical-gap: var(--rp-semantic-measures-spacing-032);
+  --rp-footer-spacing-small-vertical-gap: var(--rp-semantic-measures-spacing-040);
+  --rp-footer-spacing-small-vertical-padding: var(--rp-semantic-measures-spacing-040);
+
+  /* Collection: --rp-global header */
+  --rp-global-header-color-default-background-color: var(
+    --rp-semantic-color-surface-default-primary
+  );
+  --rp-global-header-color-default-interactive-color: var(
+    --rp-semantic-color-content-default-brandPrimary
+  );
+  --rp-global-header-color-inverse-background-color: var(
+    --rp-semantic-color-surface-inverse-primary
+  );
+  --rp-global-header-color-inverse-interactive-color: var(
+    --rp-semantic-color-content-inverse-primary
+  );
+  --rp-global-header-sizing-logo-large-height: var(--rp-semantic-measures-sizing-048);
+  --rp-global-header-sizing-logo-medium-height: var(--rp-semantic-measures-sizing-032);
+  --rp-global-header-sizing-logo-small-height: var(--rp-semantic-measures-sizing-032);
+  --rp-global-header-spacing-large-bottom-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-global-header-spacing-large-button-horizontal-gap: var(--rp-semantic-measures-spacing-012);
+  --rp-global-header-spacing-large-content-horizontal-gap: var(--rp-semantic-measures-spacing-064);
+  --rp-global-header-spacing-large-horizontal-padding: var(--rp-semantic-measures-spacing-032);
+  --rp-global-header-spacing-large-top-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-global-header-spacing-medium-bottom-padding: var(--rp-semantic-measures-spacing-008);
+  --rp-global-header-spacing-medium-button-horizontal-gap: var(--rp-semantic-measures-spacing-016);
+  --rp-global-header-spacing-medium-content-horizontal-gap: var(--rp-semantic-measures-spacing-016);
+  --rp-global-header-spacing-medium-horizontal-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-global-header-spacing-medium-top-padding: var(--rp-semantic-measures-spacing-008);
+  --rp-global-header-spacing-small-bottom-padding: var(--rp-semantic-measures-spacing-008);
+  --rp-global-header-spacing-small-content-horizontal-gap: var(--rp-semantic-measures-spacing-016);
+  --rp-global-header-spacing-small-horizontal-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-global-header-spacing-small-top-padding: var(--rp-semantic-measures-spacing-008);
+
+  /* Collection: --rp-hover-card */
+  --rp-hover-card-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-hover-card-color-text-color: var(--rp-semantic-color-content-default-primary);
+  --rp-hover-card-radius-border-radius: var(--rp-semantic-measures-radius-large);
+  --rp-hover-card-sizing-arrow-height: var(--rp-semantic-measures-sizing-010);
+  --rp-hover-card-sizing-arrow-width: var(--rp-semantic-measures-sizing-012);
+  --rp-hover-card-spacing-padding: var(--rp-semantic-measures-spacing-024);
+
+  /* Collection: --rp-icon-button */
+  --rp-icon-button-color-active-border-color: var(
+    --rp-semantic-color-content-default-brandSecondary
+  );
+  --rp-icon-button-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-icon-button-color-color: var(--rp-semantic-color-content-default-primary);
+  --rp-icon-button-color-disabled-background-color: var(--rp-semantic-color-tint-default-tertiary);
+  --rp-icon-button-color-disabled-color: var(--rp-semantic-color-content-default-tertiary);
+  --rp-icon-button-color-focus-border-color: var(--rp-semantic-color-border-default-utility-info);
+  --rp-icon-button-color-hover-background-color: var(--rp-semantic-color-tint-default-brandPrimary);
+  --rp-icon-button-color-hover-border-color: var(--rp-semantic-color-border-default-brandPrimary);
+  --rp-icon-button-color-selected-border-color: var(
+    --rp-semantic-color-border-default-brandPrimary
+  );
+  --rp-icon-button-radius-circle-border-radius: var(--rp-semantic-measures-radius-full);
+  --rp-icon-button-radius-square-border-radius: var(--rp-semantic-measures-radius-medium);
+  --rp-icon-button-sizing-circle-height: var(--rp-semantic-measures-sizing-024);
+  --rp-icon-button-sizing-circle-width: var(--rp-semantic-measures-sizing-024);
+  --rp-icon-button-sizing-icon-height: var(--rp-semantic-measures-sizing-016);
+  --rp-icon-button-sizing-icon-width: var(--rp-semantic-measures-sizing-016);
+  --rp-icon-button-sizing-square-height: var(--rp-semantic-measures-sizing-024);
+  --rp-icon-button-sizing-square-width: var(--rp-semantic-measures-sizing-024);
+
+  /* Collection: --rp-image */
+  --rp-image-color-inverse-background-color: var(--rp-semantic-color-surface-inverse-secondary);
+  --rp-image-color-inverse-border-color: var(--rp-semantic-color-content-inverse-secondary);
+  --rp-image-color-standard-background-color: var(--rp-semantic-color-surface-default-secondary);
+  --rp-image-color-standard-border-color: var(--rp-semantic-color-content-default-secondary);
+  --rp-image-radius-border-radius: var(--rp-semantic-measures-radius-none);
+  --rp-image-sizing-border-width: var(--rp-base-scale-000);
+
+  /* Collection: --rp-input */
+  --rp-input-color-active-background-color: var(--rp-semantic-color-surface-default-secondary);
+  --rp-input-color-active-border-color: var(--rp-semantic-color-border-default-tertiary);
+  --rp-input-color-default-asterisk-color: var(
+    --rp-semantic-color-content-default-utility-negative
+  );
+  --rp-input-color-default-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-input-color-default-border-color: var(--rp-semantic-color-border-default-tertiary);
+  --rp-input-color-default-data-color: var(--rp-semantic-color-content-default-primary);
+  --rp-input-color-default-help-color: var(--rp-semantic-color-content-default-tertiary);
+  --rp-input-color-default-hint-color: var(--rp-semantic-color-content-default-tertiary);
+  --rp-input-color-default-label-color: var(--rp-semantic-color-content-default-secondary);
+  --rp-input-color-default-optional-color: var(--rp-semantic-color-content-default-tertiary);
+  --rp-input-color-disabled-background-color: var(--rp-semantic-color-tint-default-primary);
+  --rp-input-color-disabled-border-color: var(--rp-semantic-color-border-default-tertiary);
+  --rp-input-color-error-background-color: var(--rp-semantic-color-tint-default-brandPrimary);
+  --rp-input-color-error-border-color: var(--rp-semantic-color-border-inverse-utility-negative);
+  --rp-input-color-error-color: var(--rp-semantic-color-content-default-utility-negative);
+  --rp-input-color-focus-border-color: var(--rp-semantic-color-border-default-utility-info);
+  --rp-input-color-hover-border-color: var(--rp-semantic-color-border-default-brandPrimary);
+  --rp-input-sizing-radius-large-border-radius: var(--rp-semantic-measures-radius-large);
+  --rp-input-sizing-radius-medium-border-radius: var(--rp-semantic-measures-radius-medium);
+  --rp-input-sizing-radius-small-border-radius: var(--rp-semantic-measures-radius-small);
+  --rp-input-sizing-spacing-form-hint--horizontal-padding: var(--rp-semantic-measures-sizing-012);
+  --rp-input-sizing-spacing-input-horizontal-gap: var(--rp-semantic-measures-sizing-012);
+  --rp-input-sizing-spacing-input-horizontal-padding: var(--rp-semantic-measures-sizing-012);
+  --rp-input-sizing-spacing-input-vertical-padding: var(--rp-semantic-measures-sizing-008);
+  --rp-input-sizing-spacing-label-horizontal-gap: var(--rp-semantic-measures-spacing-004);
+  --rp-input-sizing-spacing-label-vertical-gap: var(--rp-semantic-measures-spacing-004);
+  --rp-input-sizing-spacing-label-vertical-padding: var(--rp-semantic-measures-spacing-010);
+
+  /* Collection: --rp-lists */
+  --rp-lists-color-inverse-icon-color: var(--rp-semantic-color-tint-inverse-brandPrimary);
+  --rp-lists-color-inverse-text-color: var(--rp-base-color-neutral-white);
+  --rp-lists-color-inverse-title-color: var(--rp-semantic-color-tint-inverse-brandPrimary);
+  --rp-lists-color-standard-icon-color: var(--rp-semantic-color-content-default-brandPrimary);
+  --rp-lists-color-standard-text-color: var(--rp-base-color-neutral-gray-gray500);
+  --rp-lists-color-standard-title-color: var(--rp-semantic-color-content-default-brandPrimary);
+  --rp-lists-sizing-icon: var(--rp-semantic-measures-sizing-016);
+  --rp-lists-spacing-horizontal-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-lists-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-008);
+  --rp-lists-spacing-ordered-list-level2-horizontal-padding-left: var(
+    --rp-semantic-measures-spacing-040
+  );
+  --rp-lists-spacing-ordered-list-level3-horizontal-padding-left: var(
+    --rp-semantic-measures-spacing-076
+  );
+  --rp-lists-spacing-unordered-list-level2-horizontal-padding-left: var(
+    --rp-semantic-measures-spacing-032
+  );
+  --rp-lists-spacing-unordered-list-level3-horizontal-padding-left: var(
+    --rp-semantic-measures-spacing-056
+  );
+  --rp-lists-spacing-vertical-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-lists-spacing-vertical-padding: var(--rp-semantic-measures-spacing-008);
+
+  /* Collection: --rp-lockup */
+  --rp-lockup-color-inverse-color: var(--rp-semantic-color-content-inverse-primary);
+  --rp-lockup-color-inverse-header-color: var(--rp-semantic-color-content-inverse-primary);
+  --rp-lockup-color-inverse-icon-color: var(--rp-semantic-color-content-inverse-secondary);
+  --rp-lockup-color-standard-color: var(--rp-semantic-color-content-default-primary);
+  --rp-lockup-color-standard-header-color: var(--rp-semantic-color-content-default-primary);
+  --rp-lockup-color-standard-icon-color: var(--rp-semantic-color-content-default-tertiary);
+  --rp-lockup-sizing-icon-large-height: var(--rp-semantic-measures-sizing-048);
+  --rp-lockup-sizing-icon-large-width: var(--rp-semantic-measures-sizing-048);
+  --rp-lockup-sizing-icon-medium-height: var(--rp-semantic-measures-sizing-040);
+  --rp-lockup-sizing-icon-medium-width: var(--rp-semantic-measures-sizing-040);
+  --rp-lockup-sizing-icon-small-height: var(--rp-semantic-measures-sizing-032);
+  --rp-lockup-sizing-icon-small-width: var(--rp-semantic-measures-sizing-032);
+  --rp-lockup-spacing-large-horizontal-gap-buttons: var(--rp-semantic-measures-spacing-020);
+  --rp-lockup-spacing-large-vertical-gap-card: var(--rp-semantic-measures-spacing-024);
+  --rp-lockup-spacing-large-vertical-gap-content: var(--rp-semantic-measures-spacing-020);
+  --rp-lockup-spacing-medium-horizontal-gap-buttons: var(--rp-semantic-measures-spacing-016);
+  --rp-lockup-spacing-medium-vertical-gap-card: var(--rp-semantic-measures-spacing-020);
+  --rp-lockup-spacing-medium-vertical-gap-content: var(--rp-semantic-measures-spacing-016);
+  --rp-lockup-spacing-small-horizontal-gap-buttons: var(--rp-semantic-measures-spacing-012);
+  --rp-lockup-spacing-small-vertical-gap-card: var(--rp-semantic-measures-spacing-016);
+  --rp-lockup-spacing-small-vertical-gap-content: var(--rp-semantic-measures-spacing-012);
+
+  /* Collection: --rp-messaging */
+  --rp-messaging-color-close-icon-color: var(--rp-semantic-color-content-default-secondary);
+  --rp-messaging-color-informational-background-color: var(
+    --rp-semantic-color-tint-default-utility-info
+  );
+  --rp-messaging-color-informational-border-color: var(
+    --rp-semantic-color-border-default-utility-info
+  );
+  --rp-messaging-color-informational-icon-color: var(
+    --rp-semantic-color-content-default-utility-info
+  );
+  --rp-messaging-color-negative-background-color: var(
+    --rp-semantic-color-tint-default-utility-negative
+  );
+  --rp-messaging-color-negative-border-color: var(
+    --rp-semantic-color-border-default-utility-negative
+  );
+  --rp-messaging-color-negative-icon-color: var(
+    --rp-semantic-color-content-default-utility-negative
+  );
+  --rp-messaging-color-neutral-background-color: var(--rp-semantic-color-tint-default-primary);
+  --rp-messaging-color-neutral-border-color: var(--rp-semantic-color-border-default-secondary);
+  --rp-messaging-color-neutral-icon-color: var(--rp-semantic-color-content-default-secondary);
+  --rp-messaging-color-positive-background-color: var(
+    --rp-semantic-color-tint-default-utility-positive
+  );
+  --rp-messaging-color-positive-border-color: var(
+    --rp-semantic-color-border-default-utility-positive
+  );
+  --rp-messaging-color-positive-icon-color: var(
+    --rp-semantic-color-content-default-utility-positive
+  );
+  --rp-messaging-color-text-color: var(--rp-semantic-color-content-default-primary);
+  --rp-messaging-color-warning-background-color: var(
+    --rp-semantic-color-tint-default-utility-warning
+  );
+  --rp-messaging-color-warning-border-color: var(
+    --rp-semantic-color-border-default-utility-warning
+  );
+  --rp-messaging-color-warning-icon-color: var(--rp-semantic-color-content-default-utility-warning);
+  --rp-messaging-radius-large-border-radius: var(--rp-semantic-measures-radius-large);
+  --rp-messaging-radius-medium-border-radius: var(--rp-semantic-measures-radius-medium);
+  --rp-messaging-radius-small-border-radius: var(--rp-semantic-measures-radius-small);
+  --rp-messaging-sizing-icon-large-height: var(--rp-semantic-measures-sizing-024);
+  --rp-messaging-sizing-icon-large-width: var(--rp-semantic-measures-sizing-024);
+  --rp-messaging-sizing-icon-medium-height: var(--rp-semantic-measures-sizing-020);
+  --rp-messaging-sizing-icon-medium-width: var(--rp-semantic-measures-sizing-020);
+  --rp-messaging-sizing-icon-small-height: var(--rp-semantic-measures-sizing-016);
+  --rp-messaging-sizing-icon-small-width: var(--rp-semantic-measures-sizing-016);
+  --rp-messaging-spacing-large-horizontal-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-messaging-spacing-large-horizontal-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-messaging-spacing-large-text-vertical-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-messaging-spacing-large-vertical-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-messaging-spacing-medium-horizontal-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-messaging-spacing-medium-horizontal-padding: var(--rp-semantic-measures-spacing-012);
+  --rp-messaging-spacing-medium-text-vertical-gap: var(--rp-semantic-measures-spacing-004);
+  --rp-messaging-spacing-medium-vertical-padding: var(--rp-semantic-measures-spacing-012);
+  --rp-messaging-spacing-small-horizontal-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-messaging-spacing-small-horizontal-padding: var(--rp-semantic-measures-spacing-010);
+  --rp-messaging-spacing-small-text-vertical-gap: var(--rp-semantic-measures-spacing-004);
+  --rp-messaging-spacing-small-vertical-padding: var(--rp-semantic-measures-spacing-010);
+
+  /* Collection: --rp-modal-Draft */
+  --rp-modal-Draft-color-card-background: var(--rp-semantic-color-surface-default-primary);
+  --rp-modal-Draft-color-text-color: var(--rp-semantic-color-content-default-primary);
+  --rp-modal-Draft-color-window-background: var(--rp-base-color-neutral-opacity-gray900);
+  --rp-modal-Draft-spacing-modal-horizontal-padding: var(--rp-semantic-measures-spacing-032);
+  --rp-modal-Draft-spacing-modal-vertical-gap-between: var(--rp-semantic-measures-spacing-032);
+  --rp-modal-Draft-spacing-modal-vertical-padding: var(--rp-semantic-measures-spacing-032);
+
+  /* Collection: --rp-nav-bar */
+  --rp-nav-bar-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-nav-bar-spacing-large-horizontal-gap: var(--rp-semantic-measures-spacing-012);
+  --rp-nav-bar-spacing-large-horizontal-padding: var(--rp-semantic-measures-spacing-004);
+  --rp-nav-bar-spacing-large-vertical-padding: var(--rp-semantic-measures-spacing-000);
+  --rp-nav-bar-spacing-medium-horizontal-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-nav-bar-spacing-medium-horizontal-padding: var(--rp-semantic-measures-spacing-004);
+  --rp-nav-bar-spacing-medium-vertical-padding: var(--rp-semantic-measures-spacing-000);
+
+  /* Collection: --rp-nav-bar-item */
+  --rp-nav-bar-item-color-active-background-color: var(
+    --rp-semantic-color-tint-default-brandPrimary
+  );
+  --rp-nav-bar-item-color-active-border-color: var(--rp-semantic-color-border-default-brandPrimary);
+  --rp-nav-bar-item-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-nav-bar-item-color-color: var(--rp-semantic-color-content-default-brandPrimary);
+  --rp-nav-bar-item-color-focus-border-color: var(--rp-semantic-color-border-default-utility-info);
+  --rp-nav-bar-item-color-hover-background-color: var(
+    --rp-semantic-color-tint-default-brandPrimary
+  );
+  --rp-nav-bar-item-color-selected-border-color: var(
+    --rp-semantic-color-border-default-brandPrimary
+  );
+  --rp-nav-bar-item-sizing-icon-height: var(--rp-semantic-measures-sizing-016);
+  --rp-nav-bar-item-sizing-icon-width: var(--rp-semantic-measures-sizing-016);
+  --rp-nav-bar-item-spacing-large-horizontal-gap: var(--rp-semantic-measures-spacing-004);
+  --rp-nav-bar-item-spacing-large-horizontal-padding: var(--rp-semantic-measures-spacing-012);
+  --rp-nav-bar-item-spacing-large-vertical-padding: var(--rp-semantic-measures-spacing-012);
+  --rp-nav-bar-item-spacing-medium-horizontal-gap: var(--rp-semantic-measures-spacing-004);
+  --rp-nav-bar-item-spacing-medium-horizontal-padding: var(--rp-semantic-measures-spacing-012);
+  --rp-nav-bar-item-spacing-medium-vertical-padding: var(--rp-semantic-measures-spacing-008);
+
+  /* Collection: --rp-nav-bar-item Copy */
+  --rp-nav-bar-item-Copy-color-active-background-color: var(
+    --rp-semantic-color-tint-default-brandPrimary
+  );
+  --rp-nav-bar-item-Copy-color-active-border-color: var(
+    --rp-semantic-color-border-default-brandPrimary
+  );
+  --rp-nav-bar-item-Copy-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-nav-bar-item-Copy-color-color: var(--rp-semantic-color-content-default-brandPrimary);
+  --rp-nav-bar-item-Copy-color-focus-border-color: var(
+    --rp-semantic-color-border-default-utility-info
+  );
+  --rp-nav-bar-item-Copy-color-hover-background-color: var(
+    --rp-semantic-color-tint-default-brandPrimary
+  );
+  --rp-nav-bar-item-Copy-color-selected-border-color: var(
+    --rp-semantic-color-border-default-brandPrimary
+  );
+  --rp-nav-bar-item-Copy-sizing-icon-height: var(--rp-semantic-measures-sizing-016);
+  --rp-nav-bar-item-Copy-sizing-icon-width: var(--rp-semantic-measures-sizing-016);
+  --rp-nav-bar-item-Copy-spacing-large-horizontal-gap: var(--rp-semantic-measures-spacing-004);
+  --rp-nav-bar-item-Copy-spacing-large-horizontal-padding: var(--rp-semantic-measures-spacing-012);
+  --rp-nav-bar-item-Copy-spacing-large-vertical-padding: var(--rp-semantic-measures-spacing-012);
+  --rp-nav-bar-item-Copy-spacing-medium-horizontal-gap: var(--rp-semantic-measures-spacing-004);
+  --rp-nav-bar-item-Copy-spacing-medium-horizontal-padding: var(--rp-semantic-measures-spacing-012);
+  --rp-nav-bar-item-Copy-spacing-medium-vertical-padding: var(--rp-semantic-measures-spacing-008);
+
+  /* Collection: --rp-nav-bar-menu */
+  --rp-nav-bar-menu-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-nav-bar-menu-radius-border-radius: var(--rp-semantic-measures-radius-medium);
+  --rp-nav-bar-menu-spacing-mega-horizontal-padding: var(--rp-semantic-measures-spacing-024);
+  --rp-nav-bar-menu-spacing-mega-vertical-gap: var(--rp-semantic-measures-spacing-012);
+  --rp-nav-bar-menu-spacing-mega-vertical-padding: var(--rp-semantic-measures-spacing-024);
+  --rp-nav-bar-menu-spacing-standard-vertical-gap: var(--rp-semantic-measures-spacing-004);
+  --rp-nav-bar-menu-spacing-standard-vertical-padding: var(--rp-semantic-measures-spacing-008);
+
+  /* Collection: --rp-nav-bar-menu Copy */
+  --rp-nav-bar-menu-Copy-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-nav-bar-menu-Copy-radius-border-radius: var(--rp-semantic-measures-radius-medium);
+  --rp-nav-bar-menu-Copy-spacing-mega-horizontal-padding: var(--rp-semantic-measures-spacing-024);
+  --rp-nav-bar-menu-Copy-spacing-mega-vertical-gap: var(--rp-semantic-measures-spacing-012);
+  --rp-nav-bar-menu-Copy-spacing-mega-vertical-padding: var(--rp-semantic-measures-spacing-024);
+  --rp-nav-bar-menu-Copy-spacing-standard-vertical-gap: var(--rp-semantic-measures-spacing-004);
+  --rp-nav-bar-menu-Copy-spacing-standard-vertical-padding: var(--rp-semantic-measures-spacing-008);
+
+  /* Collection: --rp-nav-bar-menu-item */
+  --rp-nav-bar-menu-item-color-active-background-color: var(
+    --rp-semantic-color-tint-default-brandPrimary
+  );
+  --rp-nav-bar-menu-item-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-nav-bar-menu-item-color-focus-border-color: var(
+    --rp-semantic-color-border-inverse-utility-info
+  );
+  --rp-nav-bar-menu-item-color-hover-border-color: var(
+    --rp-semantic-color-content-default-brandPrimary
+  );
+  --rp-nav-bar-menu-item-color-hover-label-color: var(
+    --rp-semantic-color-content-default-secondary
+  );
+  --rp-nav-bar-menu-item-color-label-color: var(--rp-semantic-color-content-default-primary);
+  --rp-nav-bar-menu-item-color-paragraph-color: var(--rp-semantic-color-content-default-tertiary);
+  --rp-nav-bar-menu-item-color-selected-background-color: var(
+    --rp-semantic-color-tint-default-brandPrimary
+  );
+  --rp-nav-bar-menu-item-radius-default: var(--rp-semantic-measures-radius-small);
+  --rp-nav-bar-menu-item-spacing-mega-horizontal-padding: var(--rp-semantic-measures-spacing-012);
+  --rp-nav-bar-menu-item-spacing-mega-vertical-gap: var(--rp-semantic-measures-spacing-012);
+  --rp-nav-bar-menu-item-spacing-mega-vertical-padding: var(--rp-semantic-measures-spacing-012);
+  --rp-nav-bar-menu-item-spacing-standard-horizontal-padding: var(
+    --rp-semantic-measures-spacing-024
+  );
+  --rp-nav-bar-menu-item-spacing-standard-vertical-gap: var(--rp-semantic-measures-spacing-012);
+  --rp-nav-bar-menu-item-spacing-standard-vertical-padding: var(--rp-semantic-measures-spacing-016);
+
+  /* Collection: --rp-popover */
+  --rp-popover-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-popover-color-label-color: var(--rp-semantic-color-content-default-primary);
+  --rp-popover-radius-border-radius: var(--rp-semantic-measures-radius-medium);
+  --rp-popover-sizing-arrow-height: var(--rp-semantic-measures-sizing-010);
+  --rp-popover-sizing-arrow-width: var(--rp-semantic-measures-sizing-016);
+  --rp-popover-spacing-content-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-popover-spacing-content-vertical-gap: var(--rp-semantic-measures-spacing-024);
+  --rp-popover-spacing-padding: var(--rp-semantic-measures-spacing-008);
+
+  /* Collection: --rp-progress */
+  --rp-progress-color-area-background-color: var(--rp-semantic-color-surface-default-tertiary);
+  --rp-progress-color-progress-background-color: var(
+    --rp-semantic-color-surface-default-brandPrimary
+  );
+  --rp-progress-sizing-height: var(--rp-semantic-measures-sizing-016);
+
+  /* Collection: --rp-radio */
+  --rp-radio-color-inverse-background-color: var(--rp-base-color-neutral-opacity-gray000);
+  --rp-radio-color-inverse-border-color: var(--rp-semantic-color-border-inverse-primary);
+  --rp-radio-color-inverse-focus-border-color: var(--rp-semantic-color-border-default-utility-info);
+  --rp-radio-color-inverse-hover-border-color: var(--rp-semantic-color-border-inverse-brandPrimary);
+  --rp-radio-color-inverse-indicator-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-radio-color-standard-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-radio-color-standard-border-color: var(--rp-semantic-color-border-default-tertiary);
+  --rp-radio-color-standard-focus-border-color: var(
+    --rp-semantic-color-border-default-utility-info
+  );
+  --rp-radio-color-standard-hover-border-color: var(
+    --rp-semantic-color-border-default-brandPrimary
+  );
+  --rp-radio-color-standard-indicator-color: var(--rp-semantic-color-surface-default-brandPrimary);
+  --rp-radio-radius-border-radius: var(--rp-semantic-measures-radius-full);
+  --rp-radio-sizing-indicator-height: var(--rp-semantic-measures-sizing-016);
+  --rp-radio-sizing-indicator-width: var(--rp-semantic-measures-sizing-016);
+  --rp-radio-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-004);
+  --rp-radio-spacing-vertical-padding: var(--rp-semantic-measures-spacing-004);
+
+  /* Collection: --rp-radio-group */
+  --rp-radio-group-color-inverse-label-color: var(--rp-semantic-color-content-inverse-primary);
+  --rp-radio-group-color-inverse-subtext-color: var(--rp-semantic-color-content-inverse-secondary);
+  --rp-radio-group-color-standard-label-color: var(--rp-semantic-color-content-default-primary);
+  --rp-radio-group-color-standard-subtext-color: var(--rp-semantic-color-content-default-secondary);
+  --rp-radio-group-spacing-horizontal-gap: var(--rp-semantic-measures-sizing-008);
+  --rp-radio-group-spacing-text-vertical-gap: var(--rp-semantic-measures-spacing-004);
+
+  /* Collection: --rp-scroll-area */
+  --rp-scroll-area-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-scroll-area-color-content-item-separator-color: var(--rp-separator-color-menu-border-color);
+  --rp-scroll-area-color-content-text-color: var(--rp-messaging-color-text-color);
+  --rp-scroll-area-color-label-color: var(--rp-semantic-color-content-default-brandPrimary);
+  --rp-scroll-area-color-scrollbar-background-color: var(
+    --rp-semantic-color-surface-default-secondary
+  );
+  --rp-scroll-area-color-thumb-background-color: var(--rp-semantic-color-surface-inverse-tertiary);
+  --rp-scroll-area-height: var(--rp-base-scale-290);
+  --rp-scroll-area-radius-scroll-radius: var(--rp-semantic-measures-radius-large);
+  --rp-scroll-area-spacing-content-gap: var(--rp-semantic-measures-spacing-016);
+  --rp-scroll-area-spacing-content-horizontal-gap: var(--rp-semantic-measures-spacing-016);
+  --rp-scroll-area-spacing-content-item-block-padding: var(--rp-semantic-measures-sizing-008);
+  --rp-scroll-area-spacing-scroll-bottom-padding: var(--rp-semantic-measures-spacing-024);
+  --rp-scroll-area-spacing-scroll-horizontal-padding: var(--rp-semantic-measures-spacing-002);
+  --rp-scroll-area-spacing-scroll-top-padding: var(--rp-semantic-measures-spacing-008);
+  --rp-scroll-area-spacing-viewport-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-scroll-area-width: var(--rp-base-scale-260);
+
+  /* Collection: --rp-scroll-bar */
+  --rp-scroll-bar-color-scrollbar-background-color: var(
+    --rp-semantic-color-surface-default-secondary
+  );
+  --rp-scroll-bar-color-thumb-background-color: var(--rp-semantic-color-surface-inverse-tertiary);
+  --rp-scroll-bar-radius-half-bottom-left-corner: var(--rp-semantic-measures-radius-large);
+  --rp-scroll-bar-radius-half-bottom-right-corner: var(--rp-semantic-measures-radius-none);
+  --rp-scroll-bar-radius-half-top-left-corner: var(--rp-semantic-measures-radius-large);
+  --rp-scroll-bar-radius-half-top-right-corner: var(--rp-semantic-measures-radius-none);
+  --rp-scroll-bar-radius-scroll-radius: var(--rp-semantic-measures-radius-large);
+  --rp-scroll-bar-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-002);
+  --rp-scroll-bar-spacing-vertical-padding: var(--rp-semantic-measures-spacing-004);
+  --rp-scroll-bar-thumb-height: var(--rp-semantic-measures-sizing-024);
+  --rp-scroll-bar-thumb-width: var(--rp-semantic-measures-sizing-008);
+
+  /* Collection: --rp-search */
+  --rp-search-color-standard-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-search-color-standard-border-color: var(--rp-semantic-color-border-default-tertiary);
+  --rp-search-color-standard-content-color: var(--rp-semantic-color-content-default-primary);
+  --rp-search-color-standard-focus-border-color: var(
+    --rp-semantic-color-border-default-utility-info
+  );
+  --rp-search-color-standard-hover-border-color: var(
+    --rp-semantic-color-border-default-brandPrimary
+  );
+  --rp-search-color-standard-icon: var(--rp-semantic-color-content-default-brandPrimary);
+  --rp-search-color-standard-icon-2-background: var(--rp-semantic-color-surface-default-secondary);
+  --rp-search-radius-border-radius: var(--rp-semantic-measures-radius-small);
+  --rp-search-radius-clear-icon-radius: var(--rp-semantic-measures-radius-full);
+  --rp-search-sizing-icon-1-height: var(--rp-semantic-measures-sizing-016);
+  --rp-search-sizing-icon-1-width: var(--rp-semantic-measures-sizing-016);
+  --rp-search-sizing-icon-2-height: var(--rp-semantic-measures-sizing-010);
+  --rp-search-sizing-icon-2-width: var(--rp-semantic-measures-sizing-010);
+  --rp-search-spacing-horizontal-gap: var(--rp-semantic-measures-spacing-012);
+  --rp-search-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-008);
+  --rp-search-spacing-vertical-padding: var(--rp-semantic-measures-spacing-008);
+
+  /* Collection: --rp-section */
+  --rp-section-1-column-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-section-1-column-spacing-bottom-padding: var(--rp-semantic-measures-spacing-120);
+  --rp-section-1-column-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-064);
+  --rp-section-1-column-spacing-top-padding: var(--rp-semantic-measures-spacing-076);
+  --rp-section-1-column-spacing-vertical-gap: var(--rp-semantic-measures-spacing-064);
+  --rp-section-2-column-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-section-2-column-spacing-bottom-padding: var(--rp-semantic-measures-spacing-120);
+  --rp-section-2-column-spacing-content-stack-vertical-gap: var(--rp-semantic-measures-spacing-024);
+  --rp-section-2-column-spacing-horizontal-gap: var(--rp-semantic-measures-spacing-096);
+  --rp-section-2-column-spacing-right-padding: var(--rp-semantic-measures-spacing-064);
+  --rp-section-2-column-spacing-top-padding: var(--rp-semantic-measures-spacing-076);
+  --rp-section-2-column-spacing-vertical-gap: var(--rp-semantic-measures-spacing-032);
+  --rp-section-3-column-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-section-3-column-spacing-bottom-padding: var(--rp-semantic-measures-spacing-120);
+  --rp-section-3-column-spacing-card-stack-horizontal-gap: var(--rp-semantic-measures-spacing-032);
+  --rp-section-3-column-spacing-card-vertical-gap: var(--rp-semantic-measures-spacing-024);
+  --rp-section-3-column-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-064);
+  --rp-section-3-column-spacing-top-padding: var(--rp-semantic-measures-spacing-076);
+  --rp-section-3-column-spacing-vertical-gap: var(--rp-semantic-measures-spacing-064);
+  --rp-section-hero-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-section-hero-spacing-content-vertical-gap: var(--rp-semantic-measures-spacing-032);
+  --rp-section-hero-spacing-forms-vertical-gap: var(--rp-semantic-measures-spacing-024);
+  --rp-section-hero-spacing-horizontal-gap: var(--rp-semantic-measures-spacing-120);
+  --rp-section-hero-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-064);
+  --rp-section-hero-spacing-input-horizontal-gap: var(--rp-semantic-measures-spacing-012);
+  --rp-section-hero-spacing-vertical-padding: var(--rp-semantic-measures-spacing-120);
+  --rp-section-promo-color-background-color: var(--rp-semantic-color-surface-inverse-brandPrimary);
+  --rp-section-promo-spacing-button-horizontal-gap: var(--rp-semantic-measures-spacing-016);
+  --rp-section-promo-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-064);
+  --rp-section-promo-spacing-vertical-gap: var(--rp-semantic-measures-spacing-040);
+  --rp-section-promo-spacing-vertical-padding: var(--rp-semantic-measures-spacing-096);
+
+  /* Collection: --rp-select */
+  --rp-select-color-active-background-color: var(--rp-semantic-color-surface-default-secondary);
+  --rp-select-color-active-border-color: var(--rp-semantic-color-border-default-tertiary);
+  --rp-select-color-default-asterisk-color: var(
+    --rp-semantic-color-content-default-utility-negative
+  );
+  --rp-select-color-default-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-select-color-default-border-color: var(--rp-semantic-color-border-default-tertiary);
+  --rp-select-color-default-data-color: var(--rp-semantic-color-content-default-primary);
+  --rp-select-color-default-hint-color: var(--rp-semantic-color-content-default-tertiary);
+  --rp-select-color-default-info-color: var(--rp-semantic-color-content-default-utility-info);
+  --rp-select-color-default-label-color: var(--rp-semantic-color-content-default-secondary);
+  --rp-select-color-default-optional-color: var(--rp-semantic-color-content-default-tertiary);
+  --rp-select-color-disabled-background-color: var(--rp-semantic-color-tint-default-primary);
+  --rp-select-color-disabled-border-color: var(--rp-semantic-color-border-default-tertiary);
+  --rp-select-color-error-background-color: var(--rp-semantic-color-tint-default-brandPrimary);
+  --rp-select-color-error-border-color: var(--rp-semantic-color-border-inverse-utility-negative);
+  --rp-select-color-error-color: var(--rp-semantic-color-content-default-utility-negative);
+  --rp-select-color-focus-border-color: var(--rp-semantic-color-border-default-utility-info);
+  --rp-select-color-hover-border-color: var(--rp-semantic-color-border-default-brandPrimary);
+  --rp-select-sizing-icon-large-height: var(--rp-semantic-measures-sizing-024);
+  --rp-select-sizing-icon-large-width: var(--rp-semantic-measures-sizing-024);
+  --rp-select-sizing-icon-medium-height: var(--rp-semantic-measures-sizing-020);
+  --rp-select-sizing-icon-medium-width: var(--rp-semantic-measures-sizing-020);
+  --rp-select-sizing-icon-small-height: var(--rp-semantic-measures-sizing-016);
+  --rp-select-sizing-icon-small-width: var(--rp-semantic-measures-sizing-016);
+  --rp-select-sizing-radius-large-border-radius: var(--rp-semantic-measures-radius-large);
+  --rp-select-sizing-radius-medium-border-radius: var(--rp-semantic-measures-radius-medium);
+  --rp-select-sizing-radius-small-border-radius: var(--rp-semantic-measures-radius-small);
+  --rp-select-sizing-spacing-label-horizontal-gap: var(--rp-semantic-measures-spacing-004);
+  --rp-select-sizing-spacing-label-horizontal-padding-left: var(--rp-semantic-measures-spacing-004);
+  --rp-select-sizing-spacing-label-vertical-gap: var(--rp-semantic-measures-spacing-004);
+  --rp-select-sizing-spacing-label-vertical-padding: var(--rp-semantic-measures-spacing-010);
+  --rp-select-sizing-spacing-select-hint--horizontal-padding: var(
+    --rp-semantic-measures-sizing-012
+  );
+  --rp-select-sizing-spacing-select-horizontal-gap: var(--rp-semantic-measures-sizing-012);
+  --rp-select-sizing-spacing-select-horizontal-padding: var(--rp-semantic-measures-sizing-012);
+  --rp-select-sizing-spacing-select-vertical-padding: var(--rp-semantic-measures-sizing-008);
+
+  /* Collection: --rp-select-menu */
+  --rp-select-menu-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-select-menu-color-divider-color: var(--rp-semantic-color-border-inverse-secondary);
+  --rp-select-menu-radius-medium: var(--rp-semantic-measures-radius-small);
+  --rp-select-menu-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-004);
+  --rp-select-menu-spacing-vertical-padding: var(--rp-semantic-measures-spacing-004);
+
+  /* Collection: --rp-select-menu-option */
+  --rp-select-menu-option-color-standard-color: var(
+    --rp-semantic-color-content-default-brandPrimary
+  );
+  --rp-select-menu-option-color-standard-default-background-color: var(
+    --rp-semantic-color-surface-default-primary
+  );
+  --rp-select-menu-option-color-standard-disabled-color: var(--rp-base-color-neutral-gray-gray400);
+  --rp-select-menu-option-color-standard-hover-background-color: var(
+    --rp-semantic-color-surface-inverse-brandPrimary
+  );
+  --rp-select-menu-option-color-standard-hover-color: var(
+    --rp-semantic-color-content-inverse-primary
+  );
+  --rp-select-menu-option-color-standard-hover-selected-background-color: var(
+    --rp-semantic-color-tint-default-brandPrimary
+  );
+  --rp-select-menu-option-color-standard-optgroup-color: var(
+    --rp-semantic-color-content-default-primary
+  );
+  --rp-select-menu-option-color-standard-selected-background-color: var(
+    --rp-semantic-color-surface-default-secondary
+  );
+  --rp-select-menu-option-color-standard-selected-border-color: var(
+    --rp-semantic-color-border-default-brandPrimary
+  );
+  --rp-select-menu-option-radius-default: var(--rp-semantic-measures-radius-none);
+  --rp-select-menu-option-radius-selected: var(--rp-semantic-measures-radius-small);
+  --rp-select-menu-option-sizing-icon-height: var(--rp-semantic-measures-sizing-016);
+  --rp-select-menu-option-sizing-icon-width: var(--rp-semantic-measures-sizing-016);
+  --rp-select-menu-option-spacing-horizontal-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-select-menu-option-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-008);
+  --rp-select-menu-option-spacing-vertical-padding: var(--rp-semantic-measures-spacing-004);
+
+  /* Collection: --rp-separator */
+  --rp-separator-color-content-border-color: var(--rp-semantic-color-border-default-secondary);
+  --rp-separator-color-menu-border-color: var(--rp-semantic-color-border-default-tertiary);
+  --rp-separator-sizing-content-border-width: var(--rp-semantic-measures-stroke-medium);
+  --rp-separator-sizing-menu-border-width: var(--rp-semantic-measures-stroke-small);
+  --rp-separator-spacing-content-horizontal-padding: var(--rp-semantic-measures-spacing-008);
+  --rp-separator-spacing-content-vertical-padding: var(--rp-semantic-measures-spacing-008);
+  --rp-separator-spacing-menu-horizontal-padding: var(--rp-semantic-measures-spacing-000);
+  --rp-separator-spacing-menu-vertical-padding: var(--rp-semantic-measures-spacing-000);
+
+  /* Collection: --rp-slider */
+  --rp-slider-color-area-background-color: var(--rp-semantic-color-surface-default-tertiary);
+  --rp-slider-color-indicator-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-slider-color-indicator-border-color: var(--rp-semantic-color-surface-default-brandPrimary);
+  --rp-slider-color-progress-background-color: var(
+    --rp-semantic-color-surface-default-brandPrimary
+  );
+  --rp-slider-radius-border-radius: var(--rp-semantic-measures-radius-full);
+  --rp-slider-sizing-area-height: var(--rp-semantic-measures-sizing-008);
+  --rp-slider-sizing-indicator-height: var(--rp-semantic-measures-sizing-020);
+  --rp-slider-sizing-indicator-width: var(--rp-semantic-measures-sizing-020);
+
+  /* Collection: --rp-switch */
+  --rp-switch-color-ellipse-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-switch-color-focus-border-color: var(--rp-semantic-color-border-default-utility-info);
+  --rp-switch-color-selected-background-color: var(
+    --rp-semantic-color-surface-default-brandPrimary
+  );
+  --rp-switch-color-unselected-background-color: var(--rp-semantic-color-surface-default-tertiary);
+  --rp-switch-radius-ellipse-radius: var(--rp-semantic-measures-radius-xlarge);
+  --rp-switch-radius-rectangle-radius: var(--rp-semantic-measures-radius-full);
+  --rp-switch-sizing-ellipse-height: var(--rp-semantic-measures-sizing-020);
+  --rp-switch-sizing-ellipse-width: var(--rp-semantic-measures-sizing-020);
+  --rp-switch-sizing-rectangle-height: var(--rp-semantic-measures-spacing-024);
+  --rp-switch-sizing-rectangle-width: var(--rp-semantic-measures-sizing-040);
+  --rp-switch-text-color: var(--rp-semantic-color-content-default-primary);
+  --rp-switch-toggle-background-color: var(--rp-semantic-color-surface-default-primary);
+
+  /* Collection: --rp-table */
+  --rp-table-color-bg-color-primary: var(--rp-semantic-color-surface-default-primary);
+  --rp-table-color-bg-color-stripe: var(--rp-semantic-color-surface-default-secondary);
+  --rp-table-color-data-border-color: var(--rp-semantic-color-border-default-tertiary);
+  --rp-table-color-data-color: var(--rp-semantic-color-content-default-tertiary);
+  --rp-table-color-header-border-color: var(--rp-semantic-color-border-default-primary);
+  --rp-table-color-header-color: var(--rp-semantic-color-content-default-secondary);
+  --rp-table-sizing-border-data-base-bottom: var(--rp-base-scale-001);
+  --rp-table-sizing-border-data-borderless: var(--rp-base-scale-000);
+  --rp-table-sizing-border-header-bordered-bottom: var(--rp-base-scale-002);
+  --rp-table-sizing-border-header-bordered-left-top-right: var(--rp-base-scale-001);
+  --rp-table-sizing-data-border-stroke: var(--rp-base-scale-001);
+  --rp-table-sizing-header-cell-border-stroke: var(--rp-base-scale-002);
+  --rp-table-sizing-icon-height: var(--rp-semantic-measures-sizing-020);
+  --rp-table-sizing-icon-width: var(--rp-semantic-measures-sizing-020);
+  --rp-table-spacing-bottom-padding: var(--rp-semantic-measures-spacing-012);
+  --rp-table-spacing-compact-vertical-padding: var(--rp-semantic-measures-spacing-004);
+  --rp-table-spacing-header-vertical-padding: var(--rp-semantic-measures-spacing-010);
+  --rp-table-spacing-horizontal-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-table-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-table-spacing-large-vertical-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-table-spacing-left-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-table-spacing-medium-vertical-padding: var(--rp-semantic-measures-spacing-008);
+  --rp-table-spacing-top-padding: var(--rp-semantic-measures-spacing-008);
+
+  /* Collection: --rp-tabs */
+  --rp-tabs-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-tabs-color-disabled-background-color: var(--rp-semantic-color-surface-default-secondary);
+  --rp-tabs-color-disabled-color: var(--rp-base-color-neutral-gray-gray400);
+  --rp-tabs-color-error-border-color: var(--rp-semantic-color-content-default-utility-negative);
+  --rp-tabs-color-focus-focus-border: var(--rp-semantic-color-content-default-utility-info);
+  --rp-tabs-color-hover-background-color: var(--rp-semantic-color-surface-default-secondary);
+  --rp-tabs-color-interactive-color: var(--rp-semantic-color-content-default-brandPrimary);
+  --rp-tabs-color-text-color: var(--rp-semantic-color-content-default-tertiary);
+  --rp-tabs-radius-edge-border-radius: var(--rp-semantic-measures-radius-large);
+  --rp-tabs-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-040);
+  --rp-tabs-spacing-vertical-padding: var(--rp-semantic-measures-spacing-012);
+
+  /* Collection: --rp-text-area */
+  --rp-text-area-color-active-background-color: var(--rp-semantic-color-surface-default-secondary);
+  --rp-text-area-color-active-border-color: var(--rp-semantic-color-border-default-tertiary);
+  --rp-text-area-color-default-asterisk-color: var(
+    --rp-semantic-color-content-default-utility-negative
+  );
+  --rp-text-area-color-default-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-text-area-color-default-border-color: var(--rp-semantic-color-border-default-tertiary);
+  --rp-text-area-color-default-data-color: var(--rp-semantic-color-content-default-primary);
+  --rp-text-area-color-default-hint-color: var(--rp-semantic-color-content-default-tertiary);
+  --rp-text-area-color-default-label-color: var(--rp-semantic-color-content-default-secondary);
+  --rp-text-area-color-default-optional-color: var(--rp-semantic-color-content-default-tertiary);
+  --rp-text-area-color-disabled-background-color: var(--rp-semantic-color-tint-default-primary);
+  --rp-text-area-color-disabled-border-color: var(--rp-semantic-color-border-default-tertiary);
+  --rp-text-area-color-error-background-color: var(--rp-semantic-color-tint-default-brandPrimary);
+  --rp-text-area-color-error-border-color: var(--rp-semantic-color-border-inverse-utility-negative);
+  --rp-text-area-color-error-color: var(--rp-semantic-color-content-default-utility-negative);
+  --rp-text-area-color-focus-border-color: var(--rp-semantic-color-border-default-utility-info);
+  --rp-text-area-color-hover-border-color: var(--rp-semantic-color-border-default-brandPrimary);
+  --rp-text-area-sizing-radius-large-border-radius: var(--rp-semantic-measures-radius-large);
+  --rp-text-area-sizing-radius-medium-border-radius: var(--rp-semantic-measures-radius-medium);
+  --rp-text-area-sizing-radius-small-border-radius: var(--rp-semantic-measures-radius-small);
+  --rp-text-area-sizing-spacing-area-horizontal-gap: var(--rp-semantic-measures-sizing-012);
+  --rp-text-area-sizing-spacing-area-horizontal-padding: var(--rp-semantic-measures-sizing-012);
+  --rp-text-area-sizing-spacing-area-vertical-padding: var(--rp-semantic-measures-sizing-008);
+  --rp-text-area-sizing-spacing-form-hint--horizontal-padding: var(
+    --rp-semantic-measures-sizing-012
+  );
+  --rp-text-area-sizing-spacing-label-horizontal-gap: var(--rp-semantic-measures-spacing-004);
+  --rp-text-area-sizing-spacing-label-vertical-gap: var(--rp-semantic-measures-spacing-004);
+  --rp-text-area-sizing-spacing-label-vertical-padding: var(--rp-semantic-measures-spacing-010);
+
+  /* Collection: --rp-text-link */
+
+  /* Collection: --rp-toast */
+  --rp-toast-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-toast-color-body-color: var(--rp-semantic-color-content-default-tertiary);
+  --rp-toast-color-label-color: var(--rp-semantic-color-content-default-primary);
+  --rp-toast-spacing-horizontal-gap: var(--rp-semantic-measures-spacing-012);
+  --rp-toast-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-toast-spacing-message-vertical-gap: var(--rp-semantic-measures-spacing-004);
+  --rp-toast-spacing-vertical-padding: var(--rp-semantic-measures-spacing-016);
+
+  /* Collection: --rp-toggle */
+  --rp-toggle-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-toggle-color-color: var(--rp-semantic-color-content-default-primary);
+  --rp-toggle-color-disabled-background-color: var(--rp-semantic-color-surface-default-secondary);
+  --rp-toggle-color-disabled-color: var(--rp-semantic-color-border-default-tertiary);
+  --rp-toggle-color-focus-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-toggle-color-focus-border-color: var(--rp-text-area-color-focus-border-color);
+  --rp-toggle-color-hover-background-color: var(--rp-semantic-color-surface-default-secondary);
+  --rp-toggle-color-selected-background-color: var(--rp-semantic-color-tint-default-brandPrimary);
+  --rp-toggle-color-selected-border-color: var(--rp-semantic-color-border-default-brandPrimary);
+  --rp-toggle-sizing-height: var(--rp-semantic-measures-sizing-032);
+  --rp-toggle-sizing-horizontal-gap: var(--rp-semantic-measures-spacing-004);
+  --rp-toggle-sizing-horizontal-padding: var(--rp-semantic-measures-spacing-016);
+  --rp-toggle-sizing-vertical-padding: var(--rp-semantic-measures-spacing-008);
+
+  /* Collection: --rp-toggle-group */
+  --rp-toggle-group-color-background-color: var(--rp-semantic-color-surface-default-transparent);
+  --rp-toggle-group-spacing-horizontal-gap: var(--rp-semantic-measures-spacing-000);
+
+  /* Collection: --rp-toggle-group-item */
+  --rp-toggle-group-item-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-toggle-group-item-color-color: var(--rp-semantic-color-content-default-primary);
+  --rp-toggle-group-item-color-focus-border-color: var(
+    --rp-semantic-color-border-default-utility-info
+  );
+  --rp-toggle-group-item-color-hover-background-color: var(
+    --rp-semantic-color-surface-default-secondary
+  );
+  --rp-toggle-group-item-color-selected-background-color: var(
+    --rp-semantic-color-tint-default-brandPrimary
+  );
+  --rp-toggle-group-item-color-selected-border-color: var(
+    --rp-semantic-color-border-default-brandPrimary
+  );
+  --rp-toggle-group-item-radius-center-border-radius: var(--rp-semantic-measures-radius-none);
+  --rp-toggle-group-item-radius-left-border-radius: var(--rp-semantic-measures-radius-medium);
+  --rp-toggle-group-item-radius-right-border-radius: var(--rp-semantic-measures-radius-medium);
+  --rp-toggle-group-item-spacing-horizontal-gap: var(--rp-semantic-measures-spacing-008);
+  --rp-toggle-group-item-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-008);
+  --rp-toggle-group-item-spacing-vertical-padding: var(--rp-semantic-measures-spacing-008);
+
+  /* Collection: --rp-toolbar */
+  --rp-toolbar-color-background-color: var(--rp-semantic-color-surface-default-transparent);
+  --rp-toolbar-spacing-horizontal-gap: var(--rp-semantic-measures-spacing-002);
+  --rp-toolbar-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-002);
+  --rp-toolbar-spacing-vertical-padding: var(--rp-semantic-measures-spacing-002);
+
+  /* Collection: --rp-toolbar-item */
+  --rp-toolbar-item-color-color: var(--rp-semantic-color-content-default-primary);
+  --rp-toolbar-item-color-default-background-color: var(
+    --rp-semantic-color-surface-default-primary
+  );
+  --rp-toolbar-item-color-selected-background-color: var(
+    --rp-semantic-color-tint-default-brandPrimary
+  );
+  --rp-toolbar-item-radius-border-radius: var(--rp-semantic-measures-radius-medium);
+  --rp-toolbar-item-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-004);
+  --rp-toolbar-item-spacing-vertical-padding: var(--rp-semantic-measures-spacing-004);
+
+  /* Collection: --rp-tooltip */
+  --rp-tooltip-color-background-color: var(--rp-semantic-color-surface-default-primary);
+  --rp-tooltip-color-label-color: var(--rp-semantic-color-content-default-primary);
+  --rp-tooltip-radius-border-radius: var(--rp-semantic-measures-radius-medium);
+  --rp-tooltip-sizing-arrow-height: var(--rp-semantic-measures-sizing-010);
+  --rp-tooltip-sizing-arrow-width: var(--rp-semantic-measures-sizing-016);
+  --rp-tooltip-spacing-horizontal-padding: var(--rp-semantic-measures-spacing-012);
+  --rp-tooltip-spacing-vertical-padding: var(--rp-semantic-measures-spacing-008);
+}
+
+/* Start Text Styles */
+/* name: XX Large/Heading
+/* id: S:01b208e531aadf0535f085825b6ae697ce5f5357,
+** 
+*/
+.typography-xx-large-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: XX Large/Label
+/* id: S:24165b8b934ecc848e5b1251bec52aba80d10a65,
+** 
+*/
+.typography-xx-large-label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0rem;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: XX Large/Paragraph
+/* id: S:3bdbf88fd335f6918e62c794a474bc70c1358307,
+** 
+*/
+.typography-xx-large-paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0rem;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: X Large/Heading
+/* id: S:5696663fcba4bca972964866745e86505a65c2be,
+** 
+*/
+.typography-x-large-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: X Large/Label
+/* id: S:6bc6836a6c4dae7f7c32e1db195210f73b947a5b,
+** 
+*/
+.typography-x-large-label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0rem;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: X Large/Paragraph
+/* id: S:68954c22b0c36dcc8d29ba52294c6ed5fb5fa97b,
+** 
+*/
+.typography-x-large-paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0rem;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: X Large/Underline
+/* id: S:1ddcccfcb33c8d819304c6667fa6c5e85f40e365,
+** 
+*/
+.typography-x-large-underline {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0rem;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+/* name: Large/Display
+/* id: S:7167594369fc4103fc1bb5dc35e0e5c0ae7b09c2,
+** 
+*/
+.typography-large-display {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 112px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: Large/Heading
+/* id: S:6690803807a052bd25432a2922be589cfdfda7a9,
+** 
+*/
+.typography-large-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: Large/Label
+/* id: S:0c14d82137c1b1607d81b4570909020d4f3d03a3,
+** 
+*/
+.typography-large-label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: Large/Paragraph
+/* id: S:6ea21e99794f7cb4ada4923caee3e2b9b0d8c068,
+** Regular 400
+*/
+.typography-large-paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: Large/Underline
+/* id: S:0bcd5b1a7432e2d63132bcb3090e01a733bab39b,
+** 
+*/
+.typography-large-underline {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0rem;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+/* name: Medium/Display
+/* id: S:9ad8d62d7d0297734f1e8f2aebb94725e2842dff,
+** 
+*/
+.typography-medium-display {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: Medium/Heading
+/* id: S:514af9559b270aaf0690dfe69e774369fdd01ae5,
+** 
+*/
+.typography-medium-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: Medium/Label
+/* id: S:3003bf1d587acea2051d6604995b8a350567f9f4,
+** 
+*/
+.typography-medium-label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: Medium/Paragraph
+/* id: S:d6aee1fc06f65285daa989da2af8a72a76d1abed,
+** 
+*/
+.typography-medium-paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: Medium/Underline
+/* id: S:d07ff11eec77ac6ee0ae6a03680a306944b45e78,
+** 
+*/
+.typography-medium-underline {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0rem;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+/* name: Small/Display
+/* id: S:f9e8b2308a65f7cc6512998caad354155291441e,
+** 
+*/
+.typography-small-display {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: Small/Heading
+/* id: S:f12bf5775517d84745e04d26a62274c56348de81,
+** 
+*/
+.typography-small-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: Small/Label
+/* id: S:8276a64b7f95feae3872936b27fa6171921e1ef0,
+** 
+*/
+.typography-small-label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: Small/Paragraph
+/* id: S:869295c00854f1978e1305559e5fbacf60568a1a,
+** 
+*/
+.typography-small-paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: Small/Underline
+/* id: S:40602bc5abd9ef9537c44a2e990624f56404a730,
+** 
+*/
+.typography-small-underline {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0rem;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+/* name: X Small/Display
+/* id: S:7137a36ad8eaed72d90633bd2fc434c0fb3431f4,
+** 
+*/
+.typography-x-small-display {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: X Small/Heading
+/* id: S:6b1e428aae952bf84b3b9aaf4fafc137f28fc3dc,
+** 
+*/
+.typography-x-small-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: X Small/Paragraph
+/* id: S:70f78ab3f72fefe680554b4dcbfd1539b5efb834,
+** 
+*/
+.typography-x-small-paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: X Small/Underline
+/* id: S:f3651c1c199226a94ea71bec8d66e940caad1bd8,
+** 
+*/
+.typography-x-small-underline {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0rem;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+/* name: XX Small/Label
+/* id: S:95d3644fe9e1bf614bacfb1bdc688c744b28e8d2,
+** 
+*/
+.typography-xx-small-label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: XX Small/Paragraph
+/* id: S:f72e9101c997ef0646dfe3a384891a0a3a9860fd,
+** 
+*/
+.typography-xx-small-paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* name: XX Small/Italic
+/* id: S:28a19fecd17839ad6a292321d11f5566f9eca6b7,
+** 
+*/
+.typography-xx-small-italic {
+  font-family: 'Inter';
+  font-style: italic;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
