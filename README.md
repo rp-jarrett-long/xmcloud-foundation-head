@@ -4,24 +4,34 @@
 
 1. In an ADMIN terminal:
 
-    ```ps1
-    .\init.ps1 -InitEnv -LicenseXmlPath "C:\path\to\license.xml" -AdminPassword "DesiredAdminPassword"
-    ```
+   ```ps1
+   .\init.ps1 -InitEnv -LicenseXmlPath "C:\path\to\license.xml" -AdminPassword "DesiredAdminPassword"
+   ```
 
 2. Restart your terminal and run:
 
-    ```ps1
-    .\up.ps1
-    ```
+   ```ps1
+   .\up.ps1
+   ```
 
 3. Follow the instructions to [deploy to XM Cloud](#deploy-to-xmcloud)
 
 4. Create Edge token and [query from edge](#query-edge)
 
-*** 
+---
 
 ## About this Solution
+
 This solution is designed to help developers learn and get started quickly
 with XMCLoud + SXA.
 
+### Changes to the OOTB Rendering Parameters
 
+#### "Indent top"
+
+- Getting rid of this concept all together.
+- Replace with "Vertical spacing"
+  - "Vertical spacing top"
+  - "Vertical spacing bottom"
+- Make "vertical spacing top/bottom dropdowns
+  - Select from array of spacing options.
