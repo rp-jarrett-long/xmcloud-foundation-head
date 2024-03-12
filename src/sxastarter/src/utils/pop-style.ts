@@ -18,23 +18,23 @@ export const popStyles = (
     if (s instanceof RegExp) {
       const match = styles.match(s);
       if (match) {
-        styles = styles.replace(s, '').trimEnd().replaceAll('  ', ' ');
+        styles = styles.replace(s, '');
         removedStyles.push(match[0]);
       } else {
         removedStyles.push(false);
       }
     } else {
       if (styles.includes(s)) {
-        styles = styles.replace(s, '').trimEnd().replaceAll('  ', ' ');
+        styles = styles.replace(s, '');
         removedStyles.push(s);
       } else {
         removedStyles.push(false);
       }
     }
   });
-  return [styles, ...removedStyles];
+  return [styles.trimStart().trimEnd().replace(/\s+/g, ' '), ...removedStyles];
 };
 
 export const commonStyles = {
-  colSpans: RegExp(/col-(.+) /g),
+  colSpans: RegExp(/col-([^\s]+)/g),
 };
