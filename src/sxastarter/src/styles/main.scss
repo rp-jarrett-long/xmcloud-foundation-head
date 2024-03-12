@@ -21,69 +21,9 @@
 @import 'components/heading';
 @import 'components/rich-text';
 @import 'components/page-container';
-
-.image {
-  align-self: center;
-}
+@import 'components/link-list';
+@import 'components/image';
 
 body {
   font-family: 'Inter';
-}
-
-.link-list {
-  display: flex;
-
-  &--buttons {
-    li a {
-      @extend .button-base;
-      @extend .button-medium;
-    }
-
-    li:nth-child(1) a {
-      @extend .button-primary;
-    }
-
-    li:nth-child(2) a {
-      @extend .button-secondary;
-    }
-  }
-
-  [class*='-inverse'] &--buttons {
-    li:nth-child(1) a {
-      @extend .button-primary, .button-inverse;
-    }
-
-    li:nth-child(2) a {
-      @extend .button-secondary, .button-inverse;
-    }
-  }
-
-  &--space-1 {
-    gap: var(--rp-semantic-measures-spacing-004);
-  }
-
-  &--space-2 {
-    gap: var(--rp-semantic-measures-spacing-008);
-  }
-
-  &--space-3 {
-    gap: var(--rp-semantic-measures-spacing-016);
-  }
-
-  &--space-4 {
-    gap: var(--rp-semantic-measures-spacing-024);
-  }
-
-  &--column {
-    flex-direction: column;
-  }
-
-  &--fit-content {
-    inline-size: fit-content;
-  }
-
-  &--center {
-    justify-content: center;
-    align-items: center;
-  }
 }
