@@ -1,0 +1,25 @@
+// Custom semantic variables that don't (yet) come from the Brockman export.
+@import 'toolbox';
+
+:root {
+  // Breakpoints
+  --screen-md: 600px;
+  --screen-lg: 1136px;
+
+  // Page layout & grid
+  --page-margin: var(--rp-base-scale-016);
+  --grid-column-gap: var(--rp-base-scale-016);
+  --grid-column-count: 4;
+
+  @include screen-md {
+    --page-margin: var(--rp-base-scale-032);
+    --grid-column-gap: var(--rp-base-scale-032);
+    --grid-column-count: 8;
+  }
+
+  @include screen-lg {
+    --page-margin: var(--rp-base-scale-064);
+    --grid-column-gap: var(--rp-base-scale-032);
+    --grid-column-count: 12;
+  }
+}

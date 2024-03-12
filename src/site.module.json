@@ -1,6 +1,6 @@
 {
     "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
-    "namespace": "Site",
+    "namespace": "Brockmann",
     "items": {
         "includes": [
             {
@@ -10,17 +10,17 @@
             },
             {
                 "name": "templates",
-                "path": "/sitecore/Templates/Project/MySite",
+                "path": "/sitecore/Templates/Project/Brockmann",
                 "allowedPushOperations": "CreateUpdateAndDelete"
             },
             {
                 "name": "contentRoot",
-                "path": "/sitecore/content",
+                "path": "/sitecore/content/Brockmann",
                 "allowedPushOperations": "CreateUpdateAndDelete"
             },
             {
                 "name": "media",
-                "path": "/sitecore/Media Library/Project/MySite",
+                "path": "/sitecore/Media Library/Project/Brockmann",
                 "allowedPushOperations": "CreateUpdateAndDelete"
             }
         ]

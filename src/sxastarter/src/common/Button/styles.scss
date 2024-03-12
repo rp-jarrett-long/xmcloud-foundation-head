@@ -1,0 +1,94 @@
+.button-base {
+  cursor: pointer;
+  display: flex;
+  border-width: 1px; /* Looks like missing token? */
+  border-style: solid;
+  background-color: transparent;
+}
+
+.button-small {
+  padding-block: var(--rp-button-spacing-small-vertical-padding);
+  padding-inline: var(--rp-button-spacing-small-horizontal-padding);
+  border-radius: var(--rp-button-radius-small-border-radius);
+  gap: var(--rp-button-spacing-small-label-horizontal-gap);
+}
+
+.button-medium {
+  padding-block: var(--rp-button-spacing-medium-vertical-padding);
+  padding-inline: var(--rp-button-spacing-medium-horizontal-padding);
+  border-radius: var(--rp-button-radius-medium-border-radius);
+  gap: var(--rp-button-spacing-medium-label-horizontal-gap);
+  display: flex;
+}
+
+.button-large {
+  padding-block: var(--rp-button-spacing-large-vertical-padding);
+  padding-inline: var(--rp-button-spacing-large-horizontal-padding);
+  border-radius: var(--rp-button-radius-large-border-radius);
+  gap: var(--rp-button-spacing-large-label-horizontal-gap);
+}
+
+/*  BUTTON PRIMARY  */
+.button-primary {
+  color: var(--rp-button-color-primary-standard-default-color);
+  background-color: var(--rp-button-color-primary-standard-default-background-color);
+  border-color: transparent;
+}
+
+.button-primary.button-inverse {
+  background-color: var(--rp-button-color-primary-inverse-default-background-color);
+  color: var(--rp-button-color-primary-inverse-default-color);
+}
+
+.button-primary:hover {
+  color: var(--rp-button-color-primary-standard-hover-color);
+  background-color: var(--rp-button-color-primary-standard-hover-background-color);
+  border-color: var(--rp-button-color-primary-standard-hover-border-color);
+}
+
+.button-primary:active {
+  color: var(--rp-button-color-primary-standard-active-color);
+  background-color: var(--rp-button-color-primary-standard-active-background-color);
+  border-color: var(--rp-button-color-primary-standard-active-border-color);
+}
+
+.button-primary:disabled {
+  background-color: var(--rp-button-color-primary-standard-disabled-background-color);
+  border-color: var(--rp-button-color-primary-standard-disabled-border-color);
+  color: var(--rp-button-color-primary-standard-disabled-color);
+}
+/*  BUTTON SECONDARY  */
+.button-secondary {
+  color: var(--rp-button-color-secondary-standard-default-color);
+  background-color: var(--rp-button-color-secondary-standard-default-background-color);
+  border-color: var(--rp-button-color-secondary-standard-default-border-color);
+}
+.button-secondary:hover {
+  color: var(--rp-button-color-secondary-standard-hover-color);
+  background-color: var(--rp-button-color-secondary-standard-hover-background-color);
+  border-color: var(--rp-button-color-secondary-standard-hover-border-color);
+}
+
+.button-secondary:active {
+  color: var(--rp-button-color-secondary-standard-active-color);
+  background-color: var(--rp-button-color-secondary-standard-active-background-color);
+  border-color: var(--rp-button-color-secondary-standard-active-border-color);
+}
+
+.button-secondary.button-inverse {
+  background-color: var(--rp-button-color-secondary-inverse-default-background-color);
+  color: var(--rp-button-color-secondary-inverse-default-color);
+  border-color: var(--rp-button-color-secondary-inverse-default-border-color);
+}
+
+.button-secondary.button-inverse:hover {
+  background-color: var(--rp-button-color-secondary-inverse-hover-background-color);
+  color: var(--rp-button-color-secondary-inverse-hover-color);
+  border-color: var(--rp-button-color-secondary-inverse-hover-border-color);
+}
+
+.button-primary:focus,
+.button-secondary:focus {
+  border: 2px dashed var(--rp-button-color-primary-standard-focus-border-color);
+  box-shadow: 0 0 5px 3px var(--rp-button-color-primary-standard-focus-border-color);
+}

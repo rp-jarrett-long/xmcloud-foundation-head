@@ -1,0 +1,89 @@
+// Global core styles
+@layer reset, core, core-overrides-1;
+
+@import 'reset';
+@import 'fonts';
+@import 'tokens';
+@import 'variables';
+
+// Common styles
+@import 'common/column-grid';
+@import 'common/surface';
+@import 'common/padding-block'; // vertical spacing
+@import 'common/text-align';
+
+// Brockmann CLI / common component styles
+@import '../common/Button/styles.scss';
+@import '../common/AspectRatio/styles.scss';
+@import '../common/BasicList/styles.scss';
+
+// Sitecore components
+@import 'components/heading';
+@import 'components/rich-text';
+@import 'components/page-container';
+
+.image {
+  align-self: center;
+}
+
+body {
+  font-family: 'Inter';
+}
+
+.link-list {
+  display: flex;
+
+  &--buttons {
+    li a {
+      @extend .button-base;
+      @extend .button-medium;
+    }
+
+    li:nth-child(1) a {
+      @extend .button-primary;
+    }
+
+    li:nth-child(2) a {
+      @extend .button-secondary;
+    }
+  }
+
+  [class*='-inverse'] &--buttons {
+    li:nth-child(1) a {
+      @extend .button-primary, .button-inverse;
+    }
+
+    li:nth-child(2) a {
+      @extend .button-secondary, .button-inverse;
+    }
+  }
+
+  &--space-1 {
+    gap: var(--rp-semantic-measures-spacing-004);
+  }
+
+  &--space-2 {
+    gap: var(--rp-semantic-measures-spacing-008);
+  }
+
+  &--space-3 {
+    gap: var(--rp-semantic-measures-spacing-016);
+  }
+
+  &--space-4 {
+    gap: var(--rp-semantic-measures-spacing-024);
+  }
+
+  &--column {
+    flex-direction: column;
+  }
+
+  &--fit-content {
+    inline-size: fit-content;
+  }
+
+  &--center {
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,84 @@
+@layer core {
+  .surface-primary {
+    border-color: var(--rp-semantic-color-border-default-primary);
+    background-color: var(--rp-semantic-color-surface-default-primary);
+    color: var(--rp-semantic-color-content-default-primary);
+  }
+
+  .surface-primary-inverse {
+    border-color: var(--rp-semantic-color-border-inverse-primary);
+    background-color: var(--rp-semantic-color-surface-inverse-primary);
+    color: var(--rp-semantic-color-content-inverse-primary);
+  }
+
+  .surface-secondary {
+    border-color: var(--rp-semantic-color-border-default-secondary);
+    background-color: var(--rp-semantic-color-surface-default-secondary);
+    color: var(--rp-semantic-color-content-default-secondary);
+  }
+
+  .surface-secondary-inverse {
+    border-color: var(--rp-semantic-color-border-inverse-secondary);
+    background-color: var(--rp-semantic-color-surface-inverse-secondary);
+    color: var(--rp-semantic-color-content-inverse-secondary);
+  }
+
+  .surface-tertiary {
+    border-color: var(--rp-semantic-color-border-default-tertiary);
+    background-color: var(--rp-semantic-color-surface-default-tertiary);
+    color: var(--rp-semantic-color-content-default-tertiary);
+  }
+
+  .surface-tertiary-inverse {
+    border-color: var(--rp-semantic-color-border-inverse-tertiary);
+    background-color: var(--rp-semantic-color-surface-inverse-tertiary);
+    color: var(--rp-semantic-color-content-inverse-tertiary);
+  }
+
+  .surface-brand-accent {
+    border-color: var(--rp-semantic-color-border-default-brandAccent);
+    background-color: var(--rp-semantic-color-surface-default-brandAccent);
+    color: var(--rp-semantic-color-content-default-brandAccent);
+  }
+
+  .surface-brand-primary {
+    border-color: var(--rp-semantic-color-border-default-brandPrimary);
+    background-color: var(--rp-semantic-color-surface-default-brandPrimary);
+    color: var(--rp-semantic-color-content-default-brandPrimary);
+  }
+
+  .surface-brand-secondary {
+    border-color: var(--rp-semantic-color-border-default-brandSecondary);
+    background-color: var(--rp-semantic-color-surface-default-brandSecondary);
+    color: var(--rp-semantic-color-content-default-brandSecondary);
+  }
+
+  [class*='surface-'].surface-card,
+  [class*='surface-'] .surface-card {
+    border-width: var(--rp-semantic-measures-stroke-small);
+    border-radius: var(--rp-semantic-measures-radius-large);
+    border-style: solid;
+    padding-inline: var(--rp-semantic-measures-spacing-024);
+  }
+}
+
+// :root {
+//   // This seems weird. Why would we set the color of the font to the color of a surface?
+//   // It breaks from the pattern we have for the 'primary', 'secondary', and 'tertiary' variants.
+//   --rp-semantic-color-surface-default-brandPrimary: var(--rp-base-color-primary-primary300);
+//   --rp-semantic-color-border-default-brandPrimary: var(--rp-base-color-primary-primary300);
+//   --rp-semantic-color-content-default-brandPrimary: var(--rp-base-color-primary-primary300);
+
+//   // Now we don't have an official 'on' color for 'brandPrimary' surfaces.
+//   // What text color should be used on a 'brandPrimary' surface?
+//   // Allowing it to be anything could lead to an accessibility issue.
+
+//   // For example, on buttons, our text color is --rp-semantic-color-content-inverse-primary.
+//   // Why not make that the value of '--rp-semantic-color-content-default-brandPrimary'?
+//   --rp-button-color-primary-standard-default-background-color: var(
+//     --rp-semantic-color-surface-default-brandPrimary
+//   );
+//   --rp-button-color-primary-standard-default-color: var(
+//     --rp-semantic-color-content-inverse-primary
+//   );
+// }

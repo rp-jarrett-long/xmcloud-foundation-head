@@ -1,0 +1,17 @@
+.aspect-ratio-base {
+  background-color: var(--rp-image-color-standard-background-color);
+  border: var(--rp-image-sizing-border-width) solid var(--rp-image-color-standard-border-color);
+  border-radius: var(--rp-image-radius-border-radius);
+}
+
+.aspect-ratio-base img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--rp-image-radius-border-radius);
+}
+
+.aspect-ratio-base.aspect-ratio-inverse {
+  background-color: var(--rp-image-color-inverse-background-color);
+  border: var(--rp-image-sizing-border-width) solid var(--rp-image-color-inverse-border-color);
+}

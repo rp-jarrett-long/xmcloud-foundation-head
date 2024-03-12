@@ -1,0 +1,295 @@
+@layer core {
+  .column-grid {
+    $columns: 12;
+    // See _variables.scss for --grid-column-* values.
+
+    > .sc-jss-empty-placeholder {
+      width: 100% !important;
+    }
+
+    display: flex;
+    align-items: stretch;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+    &--center {
+      justify-content: center;
+    }
+
+    @mixin reverse {
+      flex-wrap: wrap-reverse;
+      flex-direction: row-reverse;
+    }
+
+    &--reverse {
+      @include reverse;
+    }
+
+    &--reverse-md {
+      @include screen-md {
+        @include reverse;
+      }
+    }
+
+    &--reverse-lg {
+      @include screen-lg {
+        @include reverse;
+      }
+    }
+
+    &--reverse:not(.column-grid--center),
+    &--reverse-md:not(.column-grid--center),
+    &--reverse-lg:not(.column-grid--center) {
+      justify-content: flex-end;
+    }
+
+    column-gap: var(--grid-column-gap);
+
+    &--row-gap {
+      row-gap: var(--grid-column-gap);
+    }
+
+    &--nowrap {
+      flex-wrap: nowrap;
+    }
+
+    [class*='col-'] {
+      --column-span: calc(
+        (
+            (100% * var(--grid-column-span)) - var(--grid-column-gap) *
+              (var(--grid-column-count) - var(--grid-column-span))
+          ) / var(--grid-column-count)
+      );
+      width: var(--column-span);
+      // overflow: hidden;
+    }
+
+    /*todo: offsets */
+    .col-offset-2 {
+      --grid-column-offset: 6;
+      margin-left: calc(
+        (
+          (
+              (100% * var(--grid-column-offset)) - var(--grid-column-gap) *
+                (var(--grid-column-count) - var(--grid-column-offset))
+            ) / var(--grid-column-count) + var(--grid-column-gap)
+        )
+      );
+    }
+
+    .col-1-4 {
+      --grid-column-span: 1; // 1/4
+      @include screen-md {
+        --grid-column-span: 2; // 2/8
+      }
+      @include screen-lg {
+        --grid-column-span: 3; // 3/12
+      }
+    }
+
+    .col-2-4 {
+      --grid-column-span: 2; // 2/4
+      @include screen-md {
+        --grid-column-span: 4; // 4/8
+      }
+      @include screen-lg {
+        --grid-column-span: 6; // 6/12
+      }
+    }
+
+    .col-3-4 {
+      --grid-column-span: 3; // 3/4
+      @include screen-md {
+        --grid-column-span: 6; // 6/8
+      }
+      @include screen-lg {
+        --grid-column-span: 9; // 9/12
+      }
+    }
+
+    .col-4-4 {
+      --grid-column-span: 4; // 4/4
+      @include screen-md {
+        --grid-column-span: 8; // 8/8
+      }
+      @include screen-lg {
+        --grid-column-span: 12; // 12/12
+      }
+    }
+
+    .col-md-1-8 {
+      @include screen-md {
+        --grid-column-span: 1; // 1/8
+      }
+      @include screen-lg {
+        --grid-column-span: 1.5; // 1.5/12
+      }
+    }
+
+    .col-md-2-8 {
+      @include screen-md {
+        --grid-column-span: 2; // 2/8
+      }
+      @include screen-lg {
+        --grid-column-span: 3; // 3/12
+      }
+    }
+
+    .col-md-3-8 {
+      @include screen-md {
+        --grid-column-span: 3; // 3/8
+      }
+      @include screen-lg {
+        --grid-column-span: 4.5; // 3/12
+      }
+    }
+
+    .col-md-4-8 {
+      @include screen-md {
+        --grid-column-span: 4; // 4/8
+      }
+      @include screen-lg {
+        --grid-column-span: 6; // 6/12
+      }
+    }
+
+    .col-md-5-8 {
+      @include screen-md {
+        --grid-column-span: 5; // 5/8
+      }
+      @include screen-lg {
+        --grid-column-span: 7.5; // 7.5/12
+      }
+    }
+
+    .col-md-6-8 {
+      @include screen-md {
+        --grid-column-span: 6; // 6/8
+      }
+      @include screen-lg {
+        --grid-column-span: 9; // 9/12
+      }
+    }
+
+    .col-md-7-8 {
+      @include screen-md {
+        --grid-column-span: 7; // 7/8
+      }
+      @include screen-lg {
+        --grid-column-span: 10.5; // 10.5/12
+      }
+    }
+
+    .col-md-8-8 {
+      @include screen-md {
+        --grid-column-span: 8; // 8/8
+      }
+      @include screen-lg {
+        --grid-column-span: 12; // 12/12
+      }
+    }
+
+    .col-lg-1-12 {
+      @include screen-lg {
+        --grid-column-span: 1; // 1/12
+      }
+    }
+
+    .col-lg-2-12 {
+      @include screen-lg {
+        --grid-column-span: 2; // 2/12
+      }
+    }
+
+    .col-lg-3-12 {
+      @include screen-lg {
+        --grid-column-span: 3; // 3/12
+      }
+    }
+
+    .col-lg-4-12 {
+      @include screen-lg {
+        --grid-column-span: 4; // 4/12
+      }
+    }
+
+    .col-lg-5-12 {
+      @include screen-lg {
+        --grid-column-span: 5; // 5/12
+      }
+    }
+
+    .col-lg-6-12 {
+      @include screen-lg {
+        --grid-column-span: 6; // 6/12
+      }
+    }
+
+    .col-lg-7-12 {
+      @include screen-lg {
+        --grid-column-span: 7; // 7/12
+      }
+    }
+
+    .col-lg-8-12 {
+      @include screen-lg {
+        --grid-column-span: 8; // 8/12
+      }
+    }
+
+    .col-lg-9-12 {
+      @include screen-lg {
+        --grid-column-span: 9; // 9/12
+      }
+    }
+
+    .col-lg-10-12 {
+      @include screen-lg {
+        --grid-column-span: 10; // 10/12
+      }
+    }
+
+    .col-lg-11-12 {
+      @include screen-lg {
+        --grid-column-span: 11; // 11/12
+      }
+    }
+
+    .col-lg-12-12 {
+      @include screen-lg {
+        --grid-column-span: 12; // 12/12
+      }
+    }
+
+    // @mixin cols-mobile {
+    //   @for $i from 1 through $columns {
+    //     .col-#{$i} {
+    //       --grid-column-span: #{$i};
+    //     }
+    //   }
+    // }
+    // @include cols-mobile;
+
+    // @mixin cols-md {
+    //   @for $i from 1 through $columns {
+    //     .col-md-#{$i} {
+    //       --grid-column-span: #{$i};
+    //     }
+    //   }
+    // }
+    // @include screen-md {
+    //   @include cols-md;
+    // }
+
+    // @mixin cols-lg {
+    //   @for $i from 1 through $columns {
+    //     .col-lg-#{$i} {
+    //       --grid-column-span: #{$i};
+    //     }
+    //   }
+    // }
+    // @include screen-lg {
+    //   @include cols-lg;
+    // }
+  }
+}

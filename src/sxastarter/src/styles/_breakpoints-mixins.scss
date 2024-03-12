@@ -1,0 +1,14 @@
+$screen-md: 600px;
+$screen-lg: 1136px;
+
+@mixin screen-md {
+  @media screen and (min-width: $screen-md) {
+    @content;
+  }
+}
+
+@mixin screen-lg {
+  @media screen and (min-width: $screen-lg) {
+    @content;
+  }
+}

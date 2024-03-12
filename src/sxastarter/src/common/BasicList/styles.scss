@@ -1,0 +1,134 @@
+.rich-text ul,
+.rich-text ol,
+.basic-list-base {
+  list-style: disc;
+  color: var(--rp-lists-color-standard-text-color, rgba(117, 117, 117, 1));
+  display: flex;
+  flex-direction: column;
+  // gap: var(--rp-lists-spacing-vertical-gap, 8px);
+  --marker-ratio: calc(var(--rp-lists-sizing-icon, 16px) / 7);
+
+  li {
+    display: list-item;
+    align-items: center;
+    padding-inline: var(--rp-lists-spacing-horizontal-padding, 8px);
+    padding-block: var(--rp-lists-spacing-vertical-padding, 8px);
+  }
+
+  li:not(:has(ul, ol)) {
+    padding-block-end: var(--rp-lists-spacing-vertical-padding, 8px);
+  }
+}
+
+/* Inverse Settings */
+.rich-text.rich-text--inverse ul,
+.basic-list-base.basic-list-inverse {
+  color: var(--rp-lists-color-inverse-text-color, rgba(255, 255, 255, 1));
+
+  li::marker {
+    color: var(--rp-lists-color-inverse-icon-color, rgba(205, 209, 222, 1));
+  }
+}
+
+/* Unordered List */
+.rich-text ul,
+ul.basic-list-base {
+  --ul-l3-indent: calc(
+    var(--rp-lists-spacing-unordered-list-level3-horizontal-padding-left, 56px) -
+      (
+        var(--rp-lists-spacing-horizontal-padding, 8px) +
+          var(--rp-lists-spacing-unordered-list-level2-horizontal-padding-left, 32px)
+      ) + 4px
+  );
+  --ul-l2-indent: calc(
+    var(--rp-lists-spacing-unordered-list-level2-horizontal-padding-left, 32px) -
+      var(--rp-lists-spacing-horizontal-padding, 8px)
+  );
+
+  // Custom marker to align the height and width with Figma.
+  li::marker {
+    display: none;
+  }
+  li::before {
+    content: '\2B24';
+    font-size: 50%;
+    width: var(--rp-lists-sizing-icon, 16px);
+    height: var(--rp-lists-sizing-icon, 16px);
+    color: var(--rp-lists-color-standard-icon-color, rgba(137, 139, 157, 1));
+    margin-right: var(--rp-lists-spacing-horizontal-gap, 8px);
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Level 2 */
+  li > ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--rp-lists-spacing-vertical-gap, 8px);
+    padding-block-start: var(--rp-lists-spacing-vertical-padding, 8px);
+    margin-block-start: var(--rp-lists-spacing-vertical-gap, 8px);
+    list-style-type: circle;
+    padding-inline-start: var(--ul-l2-indent);
+  }
+  /* Level 3 */
+  li > ul ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--rp-lists-spacing-vertical-gap, 8px);
+    padding-block-start: var(--rp-lists-spacing-vertical-padding, 8px);
+    margin-block-start: var(--rp-lists-spacing-vertical-gap, 8px);
+    padding-inline-start: var(--ul-l3-indent);
+  }
+  li > ul ul li::before {
+    content: '_';
+    position: absolute;
+    inset-block-start: calc(2px - var(--rp-lists-spacing-horizontal-gap, 8px));
+    inset-inline-start: calc(0px - var(--ul-l3-indent));
+  }
+  li > ul ul li {
+    position: relative;
+    list-style-type: none;
+  }
+}
+
+/* Ordered List */
+.rich-text ol,
+ol.basic-list-base {
+  padding-inline-start: 40px;
+  list-style: decimal;
+  --ol-l3-indent: calc(
+    var(--rp-lists-spacing-ordered-list-level3-horizontal-padding-left, 76px) -
+      (
+        var(--rp-lists-spacing-horizontal-padding, 8px) +
+          var(--rp-lists-spacing-ordered-list-level2-horizontal-padding-left, 40px)
+      )
+  );
+  --ol-l2-indent: calc(
+    var(--rp-lists-spacing-ordered-list-level2-horizontal-padding-left, 40px) -
+      var(--rp-lists-spacing-horizontal-padding, 8px)
+  );
+  /* Level 2 */
+  li > ol {
+    display: flex;
+    flex-direction: column;
+    gap: var(--rp-lists-spacing-vertical-gap, 8px);
+    padding-block-start: var(--rp-lists-spacing-vertical-padding, 8px);
+    margin-block-start: var(--rp-lists-spacing-vertical-gap, 8px);
+    list-style-type: lower-alpha;
+    padding-inline-start: var(--ol-l2-indent);
+  }
+  /* Level 3 */
+  li > ol ol {
+    display: flex;
+    flex-direction: column;
+    gap: var(--rp-lists-spacing-vertical-gap, 8px);
+    padding-block-start: var(--rp-lists-spacing-vertical-padding, 8px);
+    margin-block-start: var(--rp-lists-spacing-vertical-gap, 8px);
+    padding-inline-start: var(--ol-l3-indent);
+  }
+  li > ol ol li::marker {
+    list-style-type: lower-alpha;
+  }
+}
