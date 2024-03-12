@@ -1,6 +1,5 @@
 @layer core {
   .column-grid {
-    $columns: 12;
     // See _variables.scss for --grid-column-* values.
 
     > .sc-jss-empty-placeholder {
@@ -60,7 +59,7 @@
               (var(--grid-column-count) - var(--grid-column-span))
           ) / var(--grid-column-count)
       );
-      width: var(--column-span);
+      inline-size: var(--column-span);
       // overflow: hidden;
     }
 
@@ -260,36 +259,5 @@
         --grid-column-span: 12; // 12/12
       }
     }
-
-    // @mixin cols-mobile {
-    //   @for $i from 1 through $columns {
-    //     .col-#{$i} {
-    //       --grid-column-span: #{$i};
-    //     }
-    //   }
-    // }
-    // @include cols-mobile;
-
-    // @mixin cols-md {
-    //   @for $i from 1 through $columns {
-    //     .col-md-#{$i} {
-    //       --grid-column-span: #{$i};
-    //     }
-    //   }
-    // }
-    // @include screen-md {
-    //   @include cols-md;
-    // }
-
-    // @mixin cols-lg {
-    //   @for $i from 1 through $columns {
-    //     .col-lg-#{$i} {
-    //       --grid-column-span: #{$i};
-    //     }
-    //   }
-    // }
-    // @include screen-lg {
-    //   @include cols-lg;
-    // }
   }
 }

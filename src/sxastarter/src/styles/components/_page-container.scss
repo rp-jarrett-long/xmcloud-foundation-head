@@ -1,12 +1,11 @@
 @import '../toolbox';
 
 .page-container {
-  padding-left: var(--page-margin);
-  padding-right: var(--page-margin);
+  padding-inline: var(--page-margin);
 
   &--center {
     > * {
-      max-width: var(--screen-lg);
+      max-inline-size: var(--screen-lg);
       margin-inline: auto;
     }
   }

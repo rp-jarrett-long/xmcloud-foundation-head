@@ -1,99 +1,99 @@
 @layer core {
   /* padding-top */
   .pt-1 {
-    padding-top: var(--rp-semantic-measures-spacing-004);
+    padding-block-start: var(--rp-semantic-measures-spacing-004);
 
     @include screen-md {
-      padding-top: var(--rp-semantic-measures-spacing-008);
+      padding-block-start: var(--rp-semantic-measures-spacing-008);
     }
   }
 
   .pt-2 {
-    padding-top: var(--rp-semantic-measures-spacing-008);
+    padding-block-start: var(--rp-semantic-measures-spacing-008);
 
     @include screen-md {
-      padding-top: var(--rp-semantic-measures-spacing-016);
+      padding-block-start: var(--rp-semantic-measures-spacing-016);
     }
   }
 
   .pt-3 {
-    padding-top: var(--rp-semantic-measures-spacing-016);
+    padding-block-start: var(--rp-semantic-measures-spacing-016);
 
     @include screen-md {
-      padding-top: var(--rp-semantic-measures-spacing-024);
+      padding-block-start: var(--rp-semantic-measures-spacing-024);
     }
   }
 
   .pt-4 {
-    padding-top: var(--rp-semantic-measures-spacing-024);
+    padding-block-start: var(--rp-semantic-measures-spacing-024);
 
     @include screen-md {
-      padding-top: var(--rp-semantic-measures-spacing-040);
+      padding-block-start: var(--rp-semantic-measures-spacing-040);
     }
   }
 
   .pt-5 {
-    padding-top: var(--rp-semantic-measures-spacing-040);
+    padding-block-start: var(--rp-semantic-measures-spacing-040);
 
     @include screen-md {
-      padding-top: var(--rp-semantic-measures-spacing-064);
+      padding-block-start: var(--rp-semantic-measures-spacing-064);
     }
   }
 
   .pt-6 {
-    padding-top: var(--rp-semantic-measures-spacing-064);
+    padding-block-start: var(--rp-semantic-measures-spacing-064);
 
     @include screen-md {
-      padding-top: var(--rp-semantic-measures-spacing-076);
+      padding-block-start: var(--rp-semantic-measures-spacing-076);
     }
   }
 
   /* padding-bottom */
   .pb-1 {
-    padding-bottom: var(--rp-semantic-measures-spacing-004);
+    padding-block-end: var(--rp-semantic-measures-spacing-004);
 
     @include screen-md {
-      padding-bottom: var(--rp-semantic-measures-spacing-008);
+      padding-block-end: var(--rp-semantic-measures-spacing-008);
     }
   }
 
   .pb-2 {
-    padding-bottom: var(--rp-semantic-measures-spacing-008);
+    padding-block-end: var(--rp-semantic-measures-spacing-008);
 
     @include screen-md {
-      padding-bottom: var(--rp-semantic-measures-spacing-016);
+      padding-block-end: var(--rp-semantic-measures-spacing-016);
     }
   }
 
   .pb-3 {
-    padding-bottom: var(--rp-semantic-measures-spacing-016);
+    padding-block-end: var(--rp-semantic-measures-spacing-016);
 
     @include screen-md {
-      padding-bottom: var(--rp-semantic-measures-spacing-024);
+      padding-block-end: var(--rp-semantic-measures-spacing-024);
     }
   }
 
   .pb-4 {
-    padding-bottom: var(--rp-semantic-measures-spacing-024);
+    padding-block-end: var(--rp-semantic-measures-spacing-024);
 
     @include screen-md {
-      padding-bottom: var(--rp-semantic-measures-spacing-040);
+      padding-block-end: var(--rp-semantic-measures-spacing-040);
     }
   }
 
   .pb-5 {
-    padding-bottom: var(--rp-semantic-measures-spacing-040);
+    padding-block-end: var(--rp-semantic-measures-spacing-040);
 
     @include screen-md {
-      padding-bottom: var(--rp-semantic-measures-spacing-064);
+      padding-block-end: var(--rp-semantic-measures-spacing-064);
     }
   }
 
   .pb-6 {
-    padding-bottom: var(--rp-semantic-measures-spacing-064);
+    padding-block-end: var(--rp-semantic-measures-spacing-064);
 
     @include screen-md {
-      padding-bottom: var(--rp-semantic-measures-spacing-076);
+      padding-block-end: var(--rp-semantic-measures-spacing-076);
     }
   }
 }
@@ -102,120 +102,120 @@
   @include screen-md {
     /* padding-top */
     .pt-md-0 {
-      padding-top: 0;
+      padding-block-start: 0;
     }
 
     .pt-md-1 {
-      padding-top: var(--rp-semantic-measures-spacing-008);
+      padding-block-start: var(--rp-semantic-measures-spacing-008);
     }
 
     .pt-md-2 {
-      padding-top: var(--rp-semantic-measures-spacing-016);
+      padding-block-start: var(--rp-semantic-measures-spacing-016);
     }
 
     .pt-md-3 {
-      padding-top: var(--rp-semantic-measures-spacing-024);
+      padding-block-start: var(--rp-semantic-measures-spacing-024);
     }
 
     .pt-md-4 {
-      padding-top: var(--rp-semantic-measures-spacing-040);
+      padding-block-start: var(--rp-semantic-measures-spacing-040);
     }
 
     .pt-md-5 {
-      padding-top: var(--rp-semantic-measures-spacing-064);
+      padding-block-start: var(--rp-semantic-measures-spacing-064);
     }
 
     .pt-md-6 {
-      padding-top: var(--rp-semantic-measures-spacing-076);
+      padding-block-start: var(--rp-semantic-measures-spacing-076);
     }
 
     /* padding-bottom */
     .pb-md-0 {
-      padding-bottom: 0;
+      padding-block-end: 0;
     }
 
     .pb-md-1 {
-      padding-bottom: var(--rp-semantic-measures-spacing-008);
+      padding-block-end: var(--rp-semantic-measures-spacing-008);
     }
 
     .pb-md-2 {
-      padding-bottom: var(--rp-semantic-measures-spacing-016);
+      padding-block-end: var(--rp-semantic-measures-spacing-016);
     }
 
     .pb-md-3 {
-      padding-bottom: var(--rp-semantic-measures-spacing-024);
+      padding-block-end: var(--rp-semantic-measures-spacing-024);
     }
 
     .pb-md-4 {
-      padding-bottom: var(--rp-semantic-measures-spacing-040);
+      padding-block-end: var(--rp-semantic-measures-spacing-040);
     }
 
     .pb-md-5 {
-      padding-bottom: var(--rp-semantic-measures-spacing-064);
+      padding-block-end: var(--rp-semantic-measures-spacing-064);
     }
 
     .pb-md-6 {
-      padding-bottom: var(--rp-semantic-measures-spacing-076);
+      padding-block-end: var(--rp-semantic-measures-spacing-076);
     }
   }
 
   @include screen-lg {
     /* padding-top */
     .pt-lg-0 {
-      padding-top: 0;
+      padding-block-start: 0;
     }
 
     .pt-lg-1 {
-      padding-top: var(--rp-semantic-measures-spacing-008);
+      padding-block-start: var(--rp-semantic-measures-spacing-008);
     }
 
     .pt-lg-2 {
-      padding-top: var(--rp-semantic-measures-spacing-016);
+      padding-block-start: var(--rp-semantic-measures-spacing-016);
     }
 
     .pt-lg-3 {
-      padding-top: var(--rp-semantic-measures-spacing-024);
+      padding-block-start: var(--rp-semantic-measures-spacing-024);
     }
 
     .pt-lg-4 {
-      padding-top: var(--rp-semantic-measures-spacing-040);
+      padding-block-start: var(--rp-semantic-measures-spacing-040);
     }
 
     .pt-lg-5 {
-      padding-top: var(--rp-semantic-measures-spacing-064);
+      padding-block-start: var(--rp-semantic-measures-spacing-064);
     }
 
     .pt-lg-6 {
-      padding-top: var(--rp-semantic-measures-spacing-076);
+      padding-block-start: var(--rp-semantic-measures-spacing-076);
     }
 
     /* padding-bottom */
     .pb-lg-0 {
-      padding-bottom: 0;
+      padding-block-end: 0;
     }
 
     .pb-lg-1 {
-      padding-bottom: var(--rp-semantic-measures-spacing-008);
+      padding-block-end: var(--rp-semantic-measures-spacing-008);
     }
 
     .pb-lg-2 {
-      padding-bottom: var(--rp-semantic-measures-spacing-016);
+      padding-block-end: var(--rp-semantic-measures-spacing-016);
     }
 
     .pb-lg-3 {
-      padding-bottom: var(--rp-semantic-measures-spacing-024);
+      padding-block-end: var(--rp-semantic-measures-spacing-024);
     }
 
     .pb-lg-4 {
-      padding-bottom: var(--rp-semantic-measures-spacing-040);
+      padding-block-end: var(--rp-semantic-measures-spacing-040);
     }
 
     .pb-lg-5 {
-      padding-bottom: var(--rp-semantic-measures-spacing-064);
+      padding-block-end: var(--rp-semantic-measures-spacing-064);
     }
 
     .pb-lg-6 {
-      padding-bottom: var(--rp-semantic-measures-spacing-076);
+      padding-block-end: var(--rp-semantic-measures-spacing-076);
     }
   }
 }
