@@ -24,14 +24,3 @@
 
 This solution is designed to help developers learn and get started quickly
 with XMCLoud + SXA.
-
-### Changes to the OOTB Rendering Parameters
-
-#### "Indent top"
-
-- Getting rid of this concept all together.
-- Replace with "Vertical spacing"
-  - "Vertical spacing top"
-  - "Vertical spacing bottom"
-- Make "vertical spacing top/bottom dropdowns
-  - Select from array of spacing options.
