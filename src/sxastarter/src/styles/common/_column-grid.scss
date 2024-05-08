@@ -2,6 +2,9 @@
   .column-grid {
     // See _variables.scss for --grid-column-* values.
 
+    [data-textid='container][sc-part-of='placeholder rendering] {
+      width: 100%;
+    }
     > .sc-jss-empty-placeholder {
       width: 100% !important;
     }
@@ -53,13 +56,13 @@
     }
 
     [class*='col-'] {
-      --column-span: calc(
+      --column-width: calc(
         (
             (100% * var(--grid-column-span)) - var(--grid-column-gap) *
               (var(--grid-column-count) - var(--grid-column-span))
           ) / var(--grid-column-count)
       );
-      inline-size: var(--column-span);
+      inline-size: var(--column-width);
       // overflow: hidden;
     }
 

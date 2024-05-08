@@ -27,3 +27,10 @@
 body {
   font-family: 'Inter';
 }
+
+.rich-text a,
+.link-list:not(.link-list--buttons) a {
+  &:hover {
+    text-decoration: underline;
+  }
+}

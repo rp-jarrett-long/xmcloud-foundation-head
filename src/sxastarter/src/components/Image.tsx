@@ -1,14 +1,13 @@
-import React from 'react';
 import {
+  Field,
+  ImageField,
   Image as JssImage,
   Link as JssLink,
-  ImageField,
-  Field,
   LinkField,
-  Text,
   useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { AspectRatio, Ratio, isAspectRatio } from 'src/common/AspectRatio';
+import { popStyles } from 'src/utils/pop-style';
 
 interface Fields {
   Image: ImageField;
@@ -26,12 +25,7 @@ export const Default = (props: ImageProps): JSX.Element => {
 
   const id = props.params.RenderingIdentifier;
 
-  const stylesArray = props.params.styles.split(' ');
-  const aspectRatio = stylesArray.find(isAspectRatio) as Ratio;
-  if (aspectRatio) {
-    stylesArray.splice(stylesArray.indexOf(aspectRatio.toString()), 1);
-  }
-  const styles = stylesArray.join(' ');
+  const [styles, aspectRatio] = popStyles(props.params.styles, isAspectRatio) as [string, Ratio];
 
   if (!props.fields) {
     return (

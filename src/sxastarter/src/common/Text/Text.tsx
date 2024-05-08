@@ -1,45 +1,60 @@
-import { ElementType } from 'react';
+import { Text as JssText } from '@sitecore-jss/sitecore-jss-nextjs';
 import { cx } from 'class-variance-authority';
-import { ComponentPropsWithoutRef } from 'react';
+import { popStyles } from 'src/utils/pop-style';
 
-// Modify this with any changes to Figma TextStyles
+/** Modify this with any changes to Figma TextStyles */
 export const textStyleMap = {
-  xxLargeHeading: 'typography-xx-large-heading',
-  xxLargeLabel: 'typography-xx-large-label',
-  xxLargeParagraph: 'typography-xx-large-paragraph',
-  xLargeHeading: 'typography-x-large-heading',
-  xLargeLabel: 'typography-x-large-label',
-  xLargeParagraph: 'typography-x-large-paragraph',
-  largeDisplay: 'typography-large-display',
-  largeHeading: 'typography-large-heading',
-  largeLabel: 'typography-large-label',
-  largeParagraph: 'typography-large-paragraph',
-  mediumDisplay: 'typography-medium-display',
-  mediumHeading: 'typography-medium-heading',
-  mediumLabel: 'typography-medium-label',
-  mediumParagraph: 'typography-medium-paragraph',
-  smallDisplay: 'typography-small-display',
-  smallHeading: 'typography-small-heading',
-  smallLabel: 'typography-small-label',
-  smallParagraph: 'typography-small-paragraph',
-  xSmallDisplay: 'typography-x-small-display',
-  xSmallHeading: 'typography-x-small-heading',
-  xSmallLabel: 'typography-x-small-label',
-  xSmallParagraph: 'typography-x-small-paragraph',
-  xxSmallLabel: 'typography-xx-small-label',
-  xxSmallParagraph: 'typography-xx-small-paragraph',
-  xxSmallItalic: 'typography-xx-small-italic',
+  'typography-xx-large-heading': 'typography-xx-large-heading',
+  'typography-xx-large-label': 'typography-xx-large-label',
+  'typography-xx-large-paragraph': 'typography-xx-large-paragraph',
+  'typography-x-large-heading': 'typography-x-large-heading',
+  'typography-x-large-label': 'typography-x-large-label',
+  'typography-x-large-paragraph': 'typography-x-large-paragraph',
+  'typography-large-display': 'typography-large-display',
+  'typography-large-heading': 'typography-large-heading',
+  'typography-large-label': 'typography-large-label',
+  'typography-large-paragraph': 'typography-large-paragraph',
+  'typography-medium-display': 'typography-medium-display',
+  'typography-medium-heading': 'typography-medium-heading',
+  'typography-medium-label': 'typography-medium-label',
+  'typography-medium-paragraph': 'typography-medium-paragraph',
+  'typography-small-display': 'typography-small-display',
+  'typography-small-heading': 'typography-small-heading',
+  'typography-small-label': 'typography-small-label',
+  'typography-small-paragraph': 'typography-small-paragraph',
+  'typography-x-small-display': 'typography-x-small-display',
+  'typography-x-small-heading': 'typography-x-small-heading',
+  'typography-x-small-label': 'typography-x-small-label',
+  'typography-x-small-paragraph': 'typography-x-small-paragraph',
+  'typography-xx-small-label': 'typography-xx-small-label',
+  'typography-xx-small-paragraph': 'typography-xx-small-paragraph',
+  'typography-xx-small-italic': 'typography-xx-small-italic',
 };
 
-export type TextProps<T extends ElementType> = {
-  as?: T;
-  textStyle?: keyof typeof textStyleMap;
+export type TextClassName = keyof typeof textStyleMap;
+
+export type TextProps = {
+  tag?: keyof React.JSX.IntrinsicElements;
+  textStyle?: TextClassName;
+  className?: string;
 };
 
-export function Text<T extends ElementType = 'span'>(
-  props: TextProps<T> & Omit<ComponentPropsWithoutRef<T>, keyof TextProps<T>>
-) {
-  const { as, className, textStyle = 'mediumParagraph', ...rest } = props;
-  const Component = as || 'span';
-  return <Component className={cx(textStyleMap[textStyle], className)} {...rest} />;
+export function Text(props: TextProps & React.ComponentProps<typeof JssText>) {
+  const { tag, className, ...rest } = props;
+  const [styles, textTypographyClassName] = popStyles(
+    className ?? '',
+    (value) => value in textStyleMap
+  );
+  return (
+    <JssText
+      tag={tag ?? 'span'}
+      className={cx(
+        styles,
+        textTypographyClassName
+          ? textTypographyClassName
+          : textStyleMap[props.textStyle ?? 'typography-medium-paragraph']
+      )}
+      {...rest}
+    />
+  );
 }

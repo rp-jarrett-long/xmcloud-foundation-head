@@ -1,3 +1,15 @@
+@include theme-consumer {
+  .button-base {
+    background-color: blue;
+  }
+}
+
+@include theme-corporate {
+  .button-base {
+    background-color: red;
+  }
+}
+
 .link-list {
   display: flex;
 

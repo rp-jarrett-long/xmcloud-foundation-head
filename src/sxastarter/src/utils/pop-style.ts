@@ -3,12 +3,12 @@
  * particularly useful for removing styles from the Sitecore rendering parameters
  * so they can either be used as a setting or placed somewhere else in the component.
  * @param styles the string of styles to remove from.
- * @param style the style or styles to remove.
+ * @param style a string, RegExp, or function to determine the style to be removed.
  * @returns an array containing the new styles string and the removed styles, or false if the style was not found.
  */
 export const popStyles = (
   styles: string,
-  ...style: (string | RegExp)[]
+  ...style: (string | RegExp | ((s: string) => boolean))[]
 ): [string, ...(string | false)[]] => {
   if (!styles) {
     return ['', false];
@@ -23,10 +23,18 @@ export const popStyles = (
       } else {
         removedStyles.push(false);
       }
-    } else {
+    } else if (typeof s === 'string') {
       if (styles.includes(s)) {
         styles = styles.replace(s, '');
         removedStyles.push(s);
+      } else {
+        removedStyles.push(false);
+      }
+    } else if (typeof s === 'function') {
+      const match = styles.split(' ').find(s);
+      if (match) {
+        styles = styles.replace(match, '');
+        removedStyles.push(match);
       } else {
         removedStyles.push(false);
       }

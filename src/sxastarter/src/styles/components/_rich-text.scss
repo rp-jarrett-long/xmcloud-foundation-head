@@ -27,6 +27,25 @@
     @extend .typography-medium-paragraph;
   }
 
+  h1 + p,
+  h2 + p,
+  h3 + p,
+  h4 + p,
+  h5 + p,
+  h6 + p,
+  p + p {
+    @extend .pt-2;
+  }
+
+  p + h1,
+  p + h2,
+  p + h3,
+  p + h4,
+  p + h5,
+  p + h6 {
+    @extend .pt-4;
+  }
+
   // See /components/BasicList/styles.scss for list styles
   // ul,
   // ol {
